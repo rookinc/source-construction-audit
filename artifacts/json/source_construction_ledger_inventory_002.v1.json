@@ -1,0 +1,823 @@
+{
+  "allowed_fields_for_phi": [
+    "derived.C_delta_mod15",
+    "derived.C_delta_mod15_mod_2",
+    "derived.C_delta_mod15_mod_3",
+    "derived.C_delta_mod15_mod_4",
+    "derived.C_delta_mod15_mod_5",
+    "derived.C_delta_mod15_mod_6",
+    "derived.C_transition",
+    "derived.boundary_gap",
+    "derived.boundary_gap_sign",
+    "derived.inside_captured",
+    "edge_role",
+    "fiber_delta_mod60",
+    "from_A",
+    "from_B",
+    "from_C",
+    "from_columns.__len",
+    "from_columns.__max",
+    "from_columns.__min",
+    "from_columns.__range",
+    "from_columns.__set",
+    "from_columns.__sum",
+    "from_fiber",
+    "from_key",
+    "from_slot",
+    "slot_delta_mod15",
+    "to_A",
+    "to_B",
+    "to_C",
+    "to_columns.__len",
+    "to_columns.__max",
+    "to_columns.__min",
+    "to_columns.__range",
+    "to_columns.__set",
+    "to_columns.__sum",
+    "to_fiber",
+    "to_key",
+    "to_slot"
+  ],
+  "audit_id": "002",
+  "audit_pass": true,
+  "blocked_fields_for_phi": [
+    "edge_index",
+    "form_index",
+    "label"
+  ],
+  "boundary": {
+    "answer_label_leakage_remains_open": true,
+    "form_index_for_evaluation_only": true,
+    "gap_a_closure": false,
+    "native_closure": false,
+    "native_four_form_partition_proven": false
+  },
+  "checks": {
+    "allowed_field_count": 37,
+    "blocked_field_count": 3,
+    "edge_records_found": true,
+    "field_count": 40,
+    "forbidden_phrases_absent": true,
+    "required_phrases_present": true,
+    "row_count": 24,
+    "row_count_is_24": true,
+    "seed_001_pass": true,
+    "source_exists": true
+  },
+  "compact_register_fields": [
+    "edge_role",
+    "from_A",
+    "from_B",
+    "from_C",
+    "from_slot",
+    "from_fiber",
+    "to_A",
+    "to_B",
+    "to_C",
+    "to_slot",
+    "to_fiber",
+    "slot_delta_mod15",
+    "fiber_delta_mod60",
+    "derived.C_delta_mod15",
+    "derived.boundary_gap",
+    "derived.boundary_gap_sign",
+    "derived.inside_captured",
+    "form_index"
+  ],
+  "field_class_counts": {
+    "derived_arithmetic": 10,
+    "evaluation_or_label_risk": 2,
+    "native_delta_or_transition": 2,
+    "order_leakage_risk": 1,
+    "source_provenance_candidate": 25
+  },
+  "field_inventory": [
+    {
+      "allowed_for_phi": true,
+      "classification": "derived_arithmetic",
+      "field": "derived.C_delta_mod15",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "1",
+        "10",
+        "12",
+        "2",
+        "3",
+        "6",
+        "9"
+      ],
+      "unique_count": 7
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "derived_arithmetic",
+      "field": "derived.C_delta_mod15_mod_2",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "1"
+      ],
+      "unique_count": 2
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "derived_arithmetic",
+      "field": "derived.C_delta_mod15_mod_3",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "1",
+        "2"
+      ],
+      "unique_count": 3
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "derived_arithmetic",
+      "field": "derived.C_delta_mod15_mod_4",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "unique_count": 4
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "derived_arithmetic",
+      "field": "derived.C_delta_mod15_mod_5",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "unique_count": 5
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "derived_arithmetic",
+      "field": "derived.C_delta_mod15_mod_6",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "unique_count": 5
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "derived_arithmetic",
+      "field": "derived.C_transition",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0->2",
+        "1->10",
+        "10->13",
+        "11->2",
+        "13->1",
+        "14->11",
+        "2->14",
+        "2->4",
+        "2->5",
+        "4->5",
+        "5->0",
+        "5->2"
+      ],
+      "unique_count": 12
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "derived_arithmetic",
+      "field": "derived.boundary_gap",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "-1",
+        "-12",
+        "-2",
+        "-3",
+        "-36",
+        "-42",
+        "-48",
+        "-50",
+        "-51",
+        "-54",
+        "-55",
+        "-57",
+        "-9",
+        "11",
+        "13",
+        "9"
+      ],
+      "unique_count": 16
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "derived_arithmetic",
+      "field": "derived.boundary_gap_sign",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "neg",
+        "pos"
+      ],
+      "unique_count": 2
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "derived_arithmetic",
+      "field": "derived.inside_captured",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "no",
+        "yes"
+      ],
+      "unique_count": 2
+    },
+    {
+      "allowed_for_phi": false,
+      "classification": "order_leakage_risk",
+      "field": "edge_index",
+      "leakage_risk": true,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unique_count": 6
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "edge_role",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "IW",
+        "TI",
+        "WX",
+        "XY",
+        "YZ",
+        "ZT"
+      ],
+      "unique_count": 6
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "native_delta_or_transition",
+      "field": "fiber_delta_mod60",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "1",
+        "12",
+        "2",
+        "3",
+        "48",
+        "51",
+        "55",
+        "57",
+        "9"
+      ],
+      "unique_count": 9
+    },
+    {
+      "allowed_for_phi": false,
+      "classification": "evaluation_or_label_risk",
+      "field": "form_index",
+      "leakage_risk": true,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "unique_count": 4
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "from_A",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "1",
+        "10",
+        "12",
+        "2",
+        "3",
+        "7",
+        "9"
+      ],
+      "unique_count": 8
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "from_B",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "1",
+        "10",
+        "11",
+        "13",
+        "14",
+        "2",
+        "4",
+        "5"
+      ],
+      "unique_count": 9
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "from_C",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "1",
+        "10",
+        "11",
+        "13",
+        "14",
+        "2",
+        "4",
+        "5"
+      ],
+      "unique_count": 9
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "from_columns.__len",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "2"
+      ],
+      "unique_count": 1
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "from_columns.__max",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "10",
+        "12",
+        "17",
+        "18",
+        "2",
+        "24",
+        "29",
+        "4",
+        "5",
+        "9"
+      ],
+      "unique_count": 10
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "from_columns.__min",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "13",
+        "2",
+        "23",
+        "28",
+        "4",
+        "7",
+        "8"
+      ],
+      "unique_count": 8
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "from_columns.__range",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "1",
+        "10",
+        "15",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unique_count": 7
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "from_columns.__set",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0|2",
+        "0|4",
+        "13|17",
+        "23|24",
+        "28|29",
+        "2|17",
+        "4|5",
+        "4|9",
+        "7|10",
+        "7|12",
+        "8|18"
+      ],
+      "unique_count": 11
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "from_columns.__sum",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "13",
+        "17",
+        "19",
+        "2",
+        "26",
+        "30",
+        "4",
+        "47",
+        "57",
+        "9"
+      ],
+      "unique_count": 10
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "from_fiber",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "1",
+        "10",
+        "11",
+        "13",
+        "14",
+        "2",
+        "4",
+        "5"
+      ],
+      "unique_count": 9
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "from_key",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0|10|5|2,17",
+        "0|1|2|0,4",
+        "10|0|1|0,2",
+        "10|9|13|28,29",
+        "11|1|2|4,5",
+        "11|7|14|23,24",
+        "13|2|1|4,9",
+        "13|9|10|28,29",
+        "14|3|2|7,12",
+        "14|7|11|23,24",
+        "1|0|10|0,2",
+        "1|2|13|4,9",
+        "2|12|5|8,18",
+        "2|1|0|0,4",
+        "2|1|11|4,5",
+        "2|3|14|7,12",
+        "2|3|4|7,10",
+        "4|10|5|13,17",
+        "4|3|2|7,10",
+        "5|10|0|2,17"
+      ],
+      "unique_count": 22
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "from_slot",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "1",
+        "10",
+        "11",
+        "13",
+        "14",
+        "2",
+        "4",
+        "5"
+      ],
+      "unique_count": 9
+    },
+    {
+      "allowed_for_phi": false,
+      "classification": "evaluation_or_label_risk",
+      "field": "label",
+      "leakage_risk": true,
+      "present_count": 24,
+      "sample_values": [
+        "reverse_partner",
+        "shared_B"
+      ],
+      "unique_count": 2
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "native_delta_or_transition",
+      "field": "slot_delta_mod15",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "12",
+        "13",
+        "14",
+        "3",
+        "5",
+        "6",
+        "9"
+      ],
+      "unique_count": 8
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "to_A",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "1",
+        "10",
+        "12",
+        "2",
+        "3",
+        "7",
+        "9"
+      ],
+      "unique_count": 8
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "to_B",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "1",
+        "10",
+        "11",
+        "13",
+        "14",
+        "2",
+        "4",
+        "5"
+      ],
+      "unique_count": 9
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "to_C",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "1",
+        "10",
+        "11",
+        "13",
+        "14",
+        "2",
+        "4",
+        "5"
+      ],
+      "unique_count": 9
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "to_columns.__len",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "2"
+      ],
+      "unique_count": 1
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "to_columns.__max",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "10",
+        "12",
+        "17",
+        "18",
+        "2",
+        "24",
+        "29",
+        "4",
+        "5",
+        "9"
+      ],
+      "unique_count": 10
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "to_columns.__min",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "13",
+        "2",
+        "23",
+        "28",
+        "4",
+        "7",
+        "8"
+      ],
+      "unique_count": 8
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "to_columns.__range",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "1",
+        "10",
+        "15",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "unique_count": 7
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "to_columns.__set",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0|2",
+        "0|4",
+        "13|17",
+        "23|24",
+        "28|29",
+        "2|17",
+        "4|5",
+        "4|9",
+        "7|10",
+        "7|12",
+        "8|18"
+      ],
+      "unique_count": 11
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "to_columns.__sum",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "13",
+        "17",
+        "19",
+        "2",
+        "26",
+        "30",
+        "4",
+        "47",
+        "57",
+        "9"
+      ],
+      "unique_count": 10
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "to_fiber",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "1",
+        "10",
+        "11",
+        "13",
+        "14",
+        "2",
+        "4",
+        "5"
+      ],
+      "unique_count": 9
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "to_key",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0|10|5|2,17",
+        "0|1|2|0,4",
+        "10|0|1|0,2",
+        "10|9|13|28,29",
+        "11|1|2|4,5",
+        "11|7|14|23,24",
+        "13|2|1|4,9",
+        "13|9|10|28,29",
+        "14|3|2|7,12",
+        "14|7|11|23,24",
+        "1|0|10|0,2",
+        "1|2|13|4,9",
+        "2|12|5|8,18",
+        "2|1|0|0,4",
+        "2|1|11|4,5",
+        "2|3|14|7,12",
+        "2|3|4|7,10",
+        "4|10|5|13,17",
+        "4|3|2|7,10",
+        "5|10|0|2,17"
+      ],
+      "unique_count": 22
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "to_slot",
+      "leakage_risk": false,
+      "present_count": 24,
+      "sample_values": [
+        "0",
+        "1",
+        "10",
+        "11",
+        "13",
+        "14",
+        "2",
+        "4",
+        "5"
+      ],
+      "unique_count": 9
+    }
+  ],
+  "forbidden_phrases_found": [],
+  "inputs": {
+    "edge_records_path": [
+      "edge_records"
+    ],
+    "edge_records_source": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+    "project25_seed_001": "artifacts/json/project25_seed_from_project24_handoff_001.v1.json"
+  },
+  "missing_required_phrases": [],
+  "statement": "Artifact 002 is a source construction ledger inventory. It exports the 24-row register, classifies allowed construction fields and evaluation fields, and preserves that answer-label leakage remains open. This is not native closure and not Gap A closure.",
+  "status": "source_construction_ledger_inventory_recorded",
+  "verdict": "source_construction_ledger_ready"
+}

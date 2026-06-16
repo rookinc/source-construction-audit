@@ -1,0 +1,205 @@
+{
+  "audit_id": "003",
+  "audit_pass": false,
+  "boundary": {
+    "answer_label_leakage_remains_open": true,
+    "candidate_not_theorem_yet": true,
+    "full_role_labeled_shared_B_universe_derived": false,
+    "gap_a_closure": false,
+    "native_closure": false
+  },
+  "checks": {
+    "answer_label_leakage_remains_open": true,
+    "component_count": 3,
+    "component_count_is_4": false,
+    "component_sizes_are_6": false,
+    "each_component_has_all_six_roles_once": false,
+    "each_component_is_transition_cycle": false,
+    "forbidden_phrases_absent": true,
+    "form_index_used_only_for_evaluation": true,
+    "gap_a_closure": false,
+    "ledger_002_pass": true,
+    "native_closure": false,
+    "phi_has_four_levels_once": false,
+    "phi_matches_form_index_partition": false,
+    "required_phrases_present": true,
+    "row_count": 24,
+    "row_count_is_24": true,
+    "row_order_used_for_phi": false,
+    "row_phi_partition_is_6_each": false
+  },
+  "components": [
+    {
+      "component_id": 0,
+      "expected_form_index_for_evaluation_only": 0,
+      "form_counts_for_evaluation_only": {
+        "0": 6
+      },
+      "has_all_six_roles_once": true,
+      "phi": {
+        "capture_count": 0,
+        "capture_roles": [],
+        "capture_row_ids": [],
+        "phi_level": "edge",
+        "reason": "capture_count=0",
+        "ti_fiber_delta_mod60": 51
+      },
+      "phi_matches_form_index_partition": true,
+      "role_counts": {
+        "IW": 1,
+        "TI": 1,
+        "WX": 1,
+        "XY": 1,
+        "YZ": 1,
+        "ZT": 1
+      },
+      "row_count": 6,
+      "source_row_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "transition_cycle_ok": true
+    },
+    {
+      "component_id": 1,
+      "expected_form_index_for_evaluation_only": 1,
+      "form_counts_for_evaluation_only": {
+        "1": 6
+      },
+      "has_all_six_roles_once": true,
+      "phi": {
+        "capture_count": 1,
+        "capture_roles": [
+          "WX"
+        ],
+        "capture_row_ids": [
+          6
+        ],
+        "phi_level": "hinge",
+        "reason": "capture_count=1",
+        "ti_fiber_delta_mod60": 48
+      },
+      "phi_matches_form_index_partition": true,
+      "role_counts": {
+        "IW": 1,
+        "TI": 1,
+        "WX": 1,
+        "XY": 1,
+        "YZ": 1,
+        "ZT": 1
+      },
+      "row_count": 6,
+      "source_row_ids": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "transition_cycle_ok": true
+    },
+    {
+      "component_id": 2,
+      "expected_form_index_for_evaluation_only": null,
+      "form_counts_for_evaluation_only": {
+        "2": 6,
+        "3": 6
+      },
+      "has_all_six_roles_once": false,
+      "phi": {
+        "capture_count": 4,
+        "capture_roles": [
+          "WX",
+          "TI",
+          "WX",
+          "TI"
+        ],
+        "capture_row_ids": [
+          12,
+          16,
+          18,
+          22
+        ],
+        "phi_level": "unknown",
+        "reason": "no rule matched",
+        "ti_fiber_delta_mod60": null
+      },
+      "phi_matches_form_index_partition": false,
+      "role_counts": {
+        "IW": 2,
+        "TI": 2,
+        "WX": 2,
+        "XY": 2,
+        "YZ": 2,
+        "ZT": 2
+      },
+      "row_count": 12,
+      "source_row_ids": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "transition_cycle_ok": false
+    }
+  ],
+  "construction_fields_used_for_phi": [
+    "from_A",
+    "from_B",
+    "from_C",
+    "to_A",
+    "to_B",
+    "to_C",
+    "edge_role",
+    "slot_delta_mod15",
+    "fiber_delta_mod60"
+  ],
+  "evaluation_fields_not_used_for_phi": [
+    "form_index",
+    "ledger_row_id"
+  ],
+  "forbidden_phrases_found": [],
+  "inputs": {
+    "ledger_json": "artifacts/json/source_construction_ledger_inventory_002.v1.json",
+    "ledger_rows_csv": "artifacts/csv/source_construction_ledger_inventory_002_rows.v1.csv"
+  },
+  "missing_required_phrases": [],
+  "phi_rule": {
+    "assignment": [
+      {
+        "condition": "capture_count == 0",
+        "level": "edge"
+      },
+      {
+        "condition": "capture_count == 1",
+        "level": "hinge"
+      },
+      {
+        "condition": "capture_count == 2 and TI.fiber_delta_mod60 == 3",
+        "level": "closed_face"
+      },
+      {
+        "condition": "capture_count == 2 and TI.fiber_delta_mod60 == 1",
+        "level": "filled_cell"
+      }
+    ],
+    "capture_rule": "inside_captured_native iff slot_delta_mod15 > fiber_delta_mod60",
+    "component_source": "weak connected components of native transition graph over from_ABC and to_ABC"
+  },
+  "statement": "Artifact 003 records a source-construction assignment phi. It derives native transition components from from_A/from_B/from_C to to_A/to_B/to_C, computes capture_count from slot_delta_mod15 and fiber_delta_mod60, and uses edge_role plus TI.fiber_delta_mod60 as the filling discriminant. form_index is used only for evaluation. answer-label leakage remains open. This is not native closure, not full role-labeled shared_B universe derivation, and not Gap A closure.",
+  "status": "source_construction_phi_candidate_recorded",
+  "verdict": "phi_candidate_failed"
+}

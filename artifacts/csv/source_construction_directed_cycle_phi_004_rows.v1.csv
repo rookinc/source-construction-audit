@@ -1,0 +1,25 @@
+ledger_row_id,component_id,edge_role,from_ABC,to_ABC,slot_delta_mod15,fiber_delta_mod60,capture_native,phi_level,form_index_for_evaluation_only,match
+0,0,WX,"(7, 11, 14)","(7, 14, 11)",3,57,False,edge,0,True
+1,0,XY,"(7, 14, 11)","(3, 14, 2)",0,51,False,edge,0,True
+2,0,YZ,"(3, 14, 2)","(3, 2, 14)",3,12,False,edge,0,True
+3,0,ZT,"(3, 2, 14)","(1, 2, 11)",0,57,False,edge,0,True
+4,0,TI,"(1, 2, 11)","(1, 11, 2)",9,51,False,edge,0,True
+5,0,IW,"(1, 11, 2)","(7, 11, 14)",0,12,False,edge,0,True
+6,1,WX,"(9, 13, 10)","(9, 10, 13)",12,3,True,hinge,1,True
+7,1,XY,"(9, 10, 13)","(0, 10, 1)",0,48,False,hinge,1,True
+8,1,YZ,"(0, 10, 1)","(0, 1, 10)",6,9,False,hinge,1,True
+9,1,ZT,"(0, 1, 10)","(2, 1, 13)",0,3,False,hinge,1,True
+10,1,TI,"(2, 1, 13)","(2, 13, 1)",12,48,False,hinge,1,True
+11,1,IW,"(2, 13, 1)","(9, 13, 10)",0,9,False,hinge,1,True
+12,2,WX,"(1, 2, 0)","(1, 0, 2)",13,2,True,closed_face,2,True
+13,2,XY,"(1, 0, 2)","(10, 0, 5)",0,3,False,closed_face,2,True
+14,2,YZ,"(10, 0, 5)","(10, 5, 0)",5,55,False,closed_face,2,True
+15,2,ZT,"(10, 5, 0)","(12, 5, 2)",0,2,False,closed_face,2,True
+16,2,TI,"(12, 5, 2)","(12, 2, 5)",12,3,True,closed_face,2,True
+17,2,IW,"(12, 2, 5)","(1, 2, 0)",0,55,False,closed_face,2,True
+18,3,WX,"(3, 4, 2)","(3, 2, 4)",13,2,True,filled_cell,3,True
+19,3,XY,"(3, 2, 4)","(12, 2, 5)",0,1,False,filled_cell,3,True
+20,3,YZ,"(12, 2, 5)","(12, 5, 2)",3,57,False,filled_cell,3,True
+21,3,ZT,"(12, 5, 2)","(10, 5, 4)",0,2,False,filled_cell,3,True
+22,3,TI,"(10, 5, 4)","(10, 4, 5)",14,1,True,filled_cell,3,True
+23,3,IW,"(10, 4, 5)","(3, 4, 2)",0,57,False,filled_cell,3,True

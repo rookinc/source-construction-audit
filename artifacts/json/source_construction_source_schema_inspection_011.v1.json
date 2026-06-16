@@ -1,0 +1,1683 @@
+{
+  "audit_id": "011",
+  "audit_pass": true,
+  "boundary": {
+    "answer_label_leakage_remains_open": true,
+    "edge_records_phi_ready": true,
+    "full_role_labeled_shared_B_universe_derived": false,
+    "gap_a_closure": false,
+    "native_closure": false,
+    "schema_inspection_only": true,
+    "source_replay": false,
+    "source_replay_remains_open": true
+  },
+  "checks": {
+    "answer_label_leakage_remains_open": true,
+    "complete_phi_record_total_count": 24,
+    "complete_phi_records_outside_edge_records_count": 0,
+    "edge_complete_phi_record_count": 24,
+    "edge_complete_phi_record_count_is_24": true,
+    "edge_record_count": 24,
+    "edge_record_count_is_24": true,
+    "edge_records_are_first_phi_ready_layer_in_imported_file": true,
+    "edge_records_is_list": true,
+    "edge_target_signature_match_count": 24,
+    "edge_target_signature_match_count_is_24": true,
+    "forbidden_phrases_absent": true,
+    "full_target_layers_count": 1,
+    "gap_a_closure": false,
+    "input_010_pass": true,
+    "native_closure": false,
+    "no_complete_phi_records_outside_edge_records": true,
+    "non_edge_full_target_layers_count": 0,
+    "required_phrases_present": true,
+    "source_json_exists": true,
+    "source_replay": false,
+    "source_replay_remains_open": true,
+    "target_signature_count": 24,
+    "target_signature_count_is_24": true
+  },
+  "exact_phi_records_outside_edge_records_top": [],
+  "forbidden_phrases_found": [],
+  "full_target_layers": [
+    {
+      "complete_phi_record_count": 24,
+      "complete_records_top": [
+        {
+          "index": 0,
+          "path": "$.edge_records[0]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":57,\"from_A\":7,\"from_B\":11,\"from_C\":14,\"slot_delta_mod15\":3,\"to_A\":7,\"to_B\":14,\"to_C\":11}"
+        },
+        {
+          "index": 1,
+          "path": "$.edge_records[1]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":51,\"from_A\":7,\"from_B\":14,\"from_C\":11,\"slot_delta_mod15\":0,\"to_A\":3,\"to_B\":14,\"to_C\":2}"
+        },
+        {
+          "index": 2,
+          "path": "$.edge_records[2]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":12,\"from_A\":3,\"from_B\":14,\"from_C\":2,\"slot_delta_mod15\":3,\"to_A\":3,\"to_B\":2,\"to_C\":14}"
+        },
+        {
+          "index": 3,
+          "path": "$.edge_records[3]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":57,\"from_A\":3,\"from_B\":2,\"from_C\":14,\"slot_delta_mod15\":0,\"to_A\":1,\"to_B\":2,\"to_C\":11}"
+        },
+        {
+          "index": 4,
+          "path": "$.edge_records[4]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":51,\"from_A\":1,\"from_B\":2,\"from_C\":11,\"slot_delta_mod15\":9,\"to_A\":1,\"to_B\":11,\"to_C\":2}"
+        },
+        {
+          "index": 5,
+          "path": "$.edge_records[5]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":12,\"from_A\":1,\"from_B\":11,\"from_C\":2,\"slot_delta_mod15\":0,\"to_A\":7,\"to_B\":11,\"to_C\":14}"
+        },
+        {
+          "index": 6,
+          "path": "$.edge_records[6]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":3,\"from_A\":9,\"from_B\":13,\"from_C\":10,\"slot_delta_mod15\":12,\"to_A\":9,\"to_B\":10,\"to_C\":13}"
+        },
+        {
+          "index": 7,
+          "path": "$.edge_records[7]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":48,\"from_A\":9,\"from_B\":10,\"from_C\":13,\"slot_delta_mod15\":0,\"to_A\":0,\"to_B\":10,\"to_C\":1}"
+        },
+        {
+          "index": 8,
+          "path": "$.edge_records[8]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":9,\"from_A\":0,\"from_B\":10,\"from_C\":1,\"slot_delta_mod15\":6,\"to_A\":0,\"to_B\":1,\"to_C\":10}"
+        },
+        {
+          "index": 9,
+          "path": "$.edge_records[9]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":3,\"from_A\":0,\"from_B\":1,\"from_C\":10,\"slot_delta_mod15\":0,\"to_A\":2,\"to_B\":1,\"to_C\":13}"
+        },
+        {
+          "index": 10,
+          "path": "$.edge_records[10]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":48,\"from_A\":2,\"from_B\":1,\"from_C\":13,\"slot_delta_mod15\":12,\"to_A\":2,\"to_B\":13,\"to_C\":1}"
+        },
+        {
+          "index": 11,
+          "path": "$.edge_records[11]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":9,\"from_A\":2,\"from_B\":13,\"from_C\":1,\"slot_delta_mod15\":0,\"to_A\":9,\"to_B\":13,\"to_C\":10}"
+        },
+        {
+          "index": 12,
+          "path": "$.edge_records[12]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":2,\"from_A\":1,\"from_B\":2,\"from_C\":0,\"slot_delta_mod15\":13,\"to_A\":1,\"to_B\":0,\"to_C\":2}"
+        },
+        {
+          "index": 13,
+          "path": "$.edge_records[13]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":3,\"from_A\":1,\"from_B\":0,\"from_C\":2,\"slot_delta_mod15\":0,\"to_A\":10,\"to_B\":0,\"to_C\":5}"
+        },
+        {
+          "index": 14,
+          "path": "$.edge_records[14]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":55,\"from_A\":10,\"from_B\":0,\"from_C\":5,\"slot_delta_mod15\":5,\"to_A\":10,\"to_B\":5,\"to_C\":0}"
+        },
+        {
+          "index": 15,
+          "path": "$.edge_records[15]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":2,\"from_A\":10,\"from_B\":5,\"from_C\":0,\"slot_delta_mod15\":0,\"to_A\":12,\"to_B\":5,\"to_C\":2}"
+        },
+        {
+          "index": 16,
+          "path": "$.edge_records[16]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":3,\"from_A\":12,\"from_B\":5,\"from_C\":2,\"slot_delta_mod15\":12,\"to_A\":12,\"to_B\":2,\"to_C\":5}"
+        },
+        {
+          "index": 17,
+          "path": "$.edge_records[17]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":55,\"from_A\":12,\"from_B\":2,\"from_C\":5,\"slot_delta_mod15\":0,\"to_A\":1,\"to_B\":2,\"to_C\":0}"
+        },
+        {
+          "index": 18,
+          "path": "$.edge_records[18]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":2,\"from_A\":3,\"from_B\":4,\"from_C\":2,\"slot_delta_mod15\":13,\"to_A\":3,\"to_B\":2,\"to_C\":4}"
+        },
+        {
+          "index": 19,
+          "path": "$.edge_records[19]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":1,\"from_A\":3,\"from_B\":2,\"from_C\":4,\"slot_delta_mod15\":0,\"to_A\":12,\"to_B\":2,\"to_C\":5}"
+        }
+      ],
+      "dict_item_count": 24,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 24,
+      "path": "$.edge_records",
+      "phi_field_hit_count": 9,
+      "phi_field_hits": [
+        "edge_role",
+        "fiber_delta_mod60",
+        "from_A",
+        "from_B",
+        "from_C",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C"
+      ],
+      "risk_field_hits": [
+        "form_index"
+      ],
+      "target_signature_match_count": 24,
+      "union_key_count": 20,
+      "union_keys_top": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_key",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_key",
+        "to_slot"
+      ]
+    }
+  ],
+  "inputs": {
+    "label_removed_rows_007": "artifacts/csv/source_construction_phi_label_removed_rows_007.v1.csv",
+    "source_json": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+    "source_provenance_inventory_010": "artifacts/json/source_construction_phi_source_provenance_inventory_010.v1.json"
+  },
+  "list_profiles": [
+    {
+      "complete_phi_record_count": 24,
+      "complete_records_top": [
+        {
+          "index": 0,
+          "path": "$.edge_records[0]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":57,\"from_A\":7,\"from_B\":11,\"from_C\":14,\"slot_delta_mod15\":3,\"to_A\":7,\"to_B\":14,\"to_C\":11}"
+        },
+        {
+          "index": 1,
+          "path": "$.edge_records[1]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":51,\"from_A\":7,\"from_B\":14,\"from_C\":11,\"slot_delta_mod15\":0,\"to_A\":3,\"to_B\":14,\"to_C\":2}"
+        },
+        {
+          "index": 2,
+          "path": "$.edge_records[2]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":12,\"from_A\":3,\"from_B\":14,\"from_C\":2,\"slot_delta_mod15\":3,\"to_A\":3,\"to_B\":2,\"to_C\":14}"
+        },
+        {
+          "index": 3,
+          "path": "$.edge_records[3]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":57,\"from_A\":3,\"from_B\":2,\"from_C\":14,\"slot_delta_mod15\":0,\"to_A\":1,\"to_B\":2,\"to_C\":11}"
+        },
+        {
+          "index": 4,
+          "path": "$.edge_records[4]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":51,\"from_A\":1,\"from_B\":2,\"from_C\":11,\"slot_delta_mod15\":9,\"to_A\":1,\"to_B\":11,\"to_C\":2}"
+        },
+        {
+          "index": 5,
+          "path": "$.edge_records[5]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":12,\"from_A\":1,\"from_B\":11,\"from_C\":2,\"slot_delta_mod15\":0,\"to_A\":7,\"to_B\":11,\"to_C\":14}"
+        },
+        {
+          "index": 6,
+          "path": "$.edge_records[6]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":3,\"from_A\":9,\"from_B\":13,\"from_C\":10,\"slot_delta_mod15\":12,\"to_A\":9,\"to_B\":10,\"to_C\":13}"
+        },
+        {
+          "index": 7,
+          "path": "$.edge_records[7]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":48,\"from_A\":9,\"from_B\":10,\"from_C\":13,\"slot_delta_mod15\":0,\"to_A\":0,\"to_B\":10,\"to_C\":1}"
+        },
+        {
+          "index": 8,
+          "path": "$.edge_records[8]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":9,\"from_A\":0,\"from_B\":10,\"from_C\":1,\"slot_delta_mod15\":6,\"to_A\":0,\"to_B\":1,\"to_C\":10}"
+        },
+        {
+          "index": 9,
+          "path": "$.edge_records[9]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":3,\"from_A\":0,\"from_B\":1,\"from_C\":10,\"slot_delta_mod15\":0,\"to_A\":2,\"to_B\":1,\"to_C\":13}"
+        },
+        {
+          "index": 10,
+          "path": "$.edge_records[10]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":48,\"from_A\":2,\"from_B\":1,\"from_C\":13,\"slot_delta_mod15\":12,\"to_A\":2,\"to_B\":13,\"to_C\":1}"
+        },
+        {
+          "index": 11,
+          "path": "$.edge_records[11]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":9,\"from_A\":2,\"from_B\":13,\"from_C\":1,\"slot_delta_mod15\":0,\"to_A\":9,\"to_B\":13,\"to_C\":10}"
+        },
+        {
+          "index": 12,
+          "path": "$.edge_records[12]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":2,\"from_A\":1,\"from_B\":2,\"from_C\":0,\"slot_delta_mod15\":13,\"to_A\":1,\"to_B\":0,\"to_C\":2}"
+        },
+        {
+          "index": 13,
+          "path": "$.edge_records[13]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":3,\"from_A\":1,\"from_B\":0,\"from_C\":2,\"slot_delta_mod15\":0,\"to_A\":10,\"to_B\":0,\"to_C\":5}"
+        },
+        {
+          "index": 14,
+          "path": "$.edge_records[14]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":55,\"from_A\":10,\"from_B\":0,\"from_C\":5,\"slot_delta_mod15\":5,\"to_A\":10,\"to_B\":5,\"to_C\":0}"
+        },
+        {
+          "index": 15,
+          "path": "$.edge_records[15]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":2,\"from_A\":10,\"from_B\":5,\"from_C\":0,\"slot_delta_mod15\":0,\"to_A\":12,\"to_B\":5,\"to_C\":2}"
+        },
+        {
+          "index": 16,
+          "path": "$.edge_records[16]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":3,\"from_A\":12,\"from_B\":5,\"from_C\":2,\"slot_delta_mod15\":12,\"to_A\":12,\"to_B\":2,\"to_C\":5}"
+        },
+        {
+          "index": 17,
+          "path": "$.edge_records[17]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":55,\"from_A\":12,\"from_B\":2,\"from_C\":5,\"slot_delta_mod15\":0,\"to_A\":1,\"to_B\":2,\"to_C\":0}"
+        },
+        {
+          "index": 18,
+          "path": "$.edge_records[18]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":2,\"from_A\":3,\"from_B\":4,\"from_C\":2,\"slot_delta_mod15\":13,\"to_A\":3,\"to_B\":2,\"to_C\":4}"
+        },
+        {
+          "index": 19,
+          "path": "$.edge_records[19]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":1,\"from_A\":3,\"from_B\":2,\"from_C\":4,\"slot_delta_mod15\":0,\"to_A\":12,\"to_B\":2,\"to_C\":5}"
+        }
+      ],
+      "dict_item_count": 24,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 24,
+      "path": "$.edge_records",
+      "phi_field_hit_count": 9,
+      "phi_field_hits": [
+        "edge_role",
+        "fiber_delta_mod60",
+        "from_A",
+        "from_B",
+        "from_C",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C"
+      ],
+      "risk_field_hits": [
+        "form_index"
+      ],
+      "target_signature_match_count": 24,
+      "union_key_count": 20,
+      "union_keys_top": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_key",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_key",
+        "to_slot"
+      ]
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 10,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 10,
+      "path": "$.candidate_results",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 8,
+      "union_keys_top": [
+        "candidate",
+        "exact_all",
+        "exact_reverse_partner",
+        "exact_shared_B",
+        "is_permutation",
+        "matched_by_label",
+        "matched_edges",
+        "missed_by_label"
+      ]
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 8,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 8,
+      "path": "$.checks",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 3,
+      "union_keys_top": [
+        "detail",
+        "id",
+        "status"
+      ]
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 4,
+      "path": "$.boundary",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 0,
+      "path": "$.checks[3].detail",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 10,
+      "path": "$.checks[6].detail",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[0].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[0].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[10].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[10].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[11].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[11].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[12].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[12].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[13].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[13].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[14].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[14].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[15].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[15].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[16].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[16].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[17].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[17].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[18].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[18].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[19].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[19].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[1].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[1].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[20].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[20].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[21].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[21].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[22].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[22].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[23].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[23].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[2].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[2].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[3].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[3].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[4].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[4].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[5].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[5].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[6].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[6].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[7].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[7].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[8].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[8].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[9].from_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 2,
+      "path": "$.edge_records[9].to_columns",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 0,
+      "path": "$.missing_endpoint",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 10,
+      "path": "$.summary.candidate_names",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    },
+    {
+      "complete_phi_record_count": 0,
+      "complete_records_top": [],
+      "dict_item_count": 0,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 0,
+      "path": "$.two_map_exact_hits",
+      "phi_field_hit_count": 0,
+      "phi_field_hits": [],
+      "risk_field_hits": [],
+      "target_signature_match_count": 0,
+      "union_key_count": 0,
+      "union_keys_top": []
+    }
+  ],
+  "missing_required_phrases": [],
+  "non_edge_full_target_layers": [],
+  "phi_layers": [
+    {
+      "complete_phi_record_count": 24,
+      "complete_records_top": [
+        {
+          "index": 0,
+          "path": "$.edge_records[0]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":57,\"from_A\":7,\"from_B\":11,\"from_C\":14,\"slot_delta_mod15\":3,\"to_A\":7,\"to_B\":14,\"to_C\":11}"
+        },
+        {
+          "index": 1,
+          "path": "$.edge_records[1]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":51,\"from_A\":7,\"from_B\":14,\"from_C\":11,\"slot_delta_mod15\":0,\"to_A\":3,\"to_B\":14,\"to_C\":2}"
+        },
+        {
+          "index": 2,
+          "path": "$.edge_records[2]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":12,\"from_A\":3,\"from_B\":14,\"from_C\":2,\"slot_delta_mod15\":3,\"to_A\":3,\"to_B\":2,\"to_C\":14}"
+        },
+        {
+          "index": 3,
+          "path": "$.edge_records[3]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":57,\"from_A\":3,\"from_B\":2,\"from_C\":14,\"slot_delta_mod15\":0,\"to_A\":1,\"to_B\":2,\"to_C\":11}"
+        },
+        {
+          "index": 4,
+          "path": "$.edge_records[4]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":51,\"from_A\":1,\"from_B\":2,\"from_C\":11,\"slot_delta_mod15\":9,\"to_A\":1,\"to_B\":11,\"to_C\":2}"
+        },
+        {
+          "index": 5,
+          "path": "$.edge_records[5]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":12,\"from_A\":1,\"from_B\":11,\"from_C\":2,\"slot_delta_mod15\":0,\"to_A\":7,\"to_B\":11,\"to_C\":14}"
+        },
+        {
+          "index": 6,
+          "path": "$.edge_records[6]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":3,\"from_A\":9,\"from_B\":13,\"from_C\":10,\"slot_delta_mod15\":12,\"to_A\":9,\"to_B\":10,\"to_C\":13}"
+        },
+        {
+          "index": 7,
+          "path": "$.edge_records[7]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":48,\"from_A\":9,\"from_B\":10,\"from_C\":13,\"slot_delta_mod15\":0,\"to_A\":0,\"to_B\":10,\"to_C\":1}"
+        },
+        {
+          "index": 8,
+          "path": "$.edge_records[8]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":9,\"from_A\":0,\"from_B\":10,\"from_C\":1,\"slot_delta_mod15\":6,\"to_A\":0,\"to_B\":1,\"to_C\":10}"
+        },
+        {
+          "index": 9,
+          "path": "$.edge_records[9]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":3,\"from_A\":0,\"from_B\":1,\"from_C\":10,\"slot_delta_mod15\":0,\"to_A\":2,\"to_B\":1,\"to_C\":13}"
+        },
+        {
+          "index": 10,
+          "path": "$.edge_records[10]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":48,\"from_A\":2,\"from_B\":1,\"from_C\":13,\"slot_delta_mod15\":12,\"to_A\":2,\"to_B\":13,\"to_C\":1}"
+        },
+        {
+          "index": 11,
+          "path": "$.edge_records[11]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":9,\"from_A\":2,\"from_B\":13,\"from_C\":1,\"slot_delta_mod15\":0,\"to_A\":9,\"to_B\":13,\"to_C\":10}"
+        },
+        {
+          "index": 12,
+          "path": "$.edge_records[12]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":2,\"from_A\":1,\"from_B\":2,\"from_C\":0,\"slot_delta_mod15\":13,\"to_A\":1,\"to_B\":0,\"to_C\":2}"
+        },
+        {
+          "index": 13,
+          "path": "$.edge_records[13]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":3,\"from_A\":1,\"from_B\":0,\"from_C\":2,\"slot_delta_mod15\":0,\"to_A\":10,\"to_B\":0,\"to_C\":5}"
+        },
+        {
+          "index": 14,
+          "path": "$.edge_records[14]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":55,\"from_A\":10,\"from_B\":0,\"from_C\":5,\"slot_delta_mod15\":5,\"to_A\":10,\"to_B\":5,\"to_C\":0}"
+        },
+        {
+          "index": 15,
+          "path": "$.edge_records[15]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":2,\"from_A\":10,\"from_B\":5,\"from_C\":0,\"slot_delta_mod15\":0,\"to_A\":12,\"to_B\":5,\"to_C\":2}"
+        },
+        {
+          "index": 16,
+          "path": "$.edge_records[16]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":3,\"from_A\":12,\"from_B\":5,\"from_C\":2,\"slot_delta_mod15\":12,\"to_A\":12,\"to_B\":2,\"to_C\":5}"
+        },
+        {
+          "index": 17,
+          "path": "$.edge_records[17]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":55,\"from_A\":12,\"from_B\":2,\"from_C\":5,\"slot_delta_mod15\":0,\"to_A\":1,\"to_B\":2,\"to_C\":0}"
+        },
+        {
+          "index": 18,
+          "path": "$.edge_records[18]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":2,\"from_A\":3,\"from_B\":4,\"from_C\":2,\"slot_delta_mod15\":13,\"to_A\":3,\"to_B\":2,\"to_C\":4}"
+        },
+        {
+          "index": 19,
+          "path": "$.edge_records[19]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":1,\"from_A\":3,\"from_B\":2,\"from_C\":4,\"slot_delta_mod15\":0,\"to_A\":12,\"to_B\":2,\"to_C\":5}"
+        }
+      ],
+      "dict_item_count": 24,
+      "duplicate_complete_signature_count": 0,
+      "list_count": 24,
+      "path": "$.edge_records",
+      "phi_field_hit_count": 9,
+      "phi_field_hits": [
+        "edge_role",
+        "fiber_delta_mod60",
+        "from_A",
+        "from_B",
+        "from_C",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C"
+      ],
+      "risk_field_hits": [
+        "form_index"
+      ],
+      "target_signature_match_count": 24,
+      "union_key_count": 20,
+      "union_keys_top": [
+        "edge_index",
+        "edge_role",
+        "fiber_delta_mod60",
+        "form_index",
+        "from_A",
+        "from_B",
+        "from_C",
+        "from_columns",
+        "from_fiber",
+        "from_key",
+        "from_slot",
+        "label",
+        "slot_delta_mod15",
+        "to_A",
+        "to_B",
+        "to_C",
+        "to_columns",
+        "to_fiber",
+        "to_key",
+        "to_slot"
+      ]
+    }
+  ],
+  "scalar_field_summary": {
+    "counts": {
+      "edge_role": 24,
+      "fiber_delta_mod60": 24,
+      "form_index": 24,
+      "from_A": 24,
+      "from_B": 24,
+      "from_C": 24,
+      "slot_delta_mod15": 24,
+      "to_A": 24,
+      "to_B": 24,
+      "to_C": 24
+    },
+    "paths": {
+      "edge_role": [
+        "$.edge_records[0].edge_role",
+        "$.edge_records[1].edge_role",
+        "$.edge_records[2].edge_role",
+        "$.edge_records[3].edge_role",
+        "$.edge_records[4].edge_role",
+        "$.edge_records[5].edge_role",
+        "$.edge_records[6].edge_role",
+        "$.edge_records[7].edge_role",
+        "$.edge_records[8].edge_role",
+        "$.edge_records[9].edge_role"
+      ],
+      "fiber_delta_mod60": [
+        "$.edge_records[0].fiber_delta_mod60",
+        "$.edge_records[1].fiber_delta_mod60",
+        "$.edge_records[2].fiber_delta_mod60",
+        "$.edge_records[3].fiber_delta_mod60",
+        "$.edge_records[4].fiber_delta_mod60",
+        "$.edge_records[5].fiber_delta_mod60",
+        "$.edge_records[6].fiber_delta_mod60",
+        "$.edge_records[7].fiber_delta_mod60",
+        "$.edge_records[8].fiber_delta_mod60",
+        "$.edge_records[9].fiber_delta_mod60"
+      ],
+      "form_index": [
+        "$.edge_records[0].form_index",
+        "$.edge_records[1].form_index",
+        "$.edge_records[2].form_index",
+        "$.edge_records[3].form_index",
+        "$.edge_records[4].form_index",
+        "$.edge_records[5].form_index",
+        "$.edge_records[6].form_index",
+        "$.edge_records[7].form_index",
+        "$.edge_records[8].form_index",
+        "$.edge_records[9].form_index"
+      ],
+      "from_A": [
+        "$.edge_records[0].from_A",
+        "$.edge_records[1].from_A",
+        "$.edge_records[2].from_A",
+        "$.edge_records[3].from_A",
+        "$.edge_records[4].from_A",
+        "$.edge_records[5].from_A",
+        "$.edge_records[6].from_A",
+        "$.edge_records[7].from_A",
+        "$.edge_records[8].from_A",
+        "$.edge_records[9].from_A"
+      ],
+      "from_B": [
+        "$.edge_records[0].from_B",
+        "$.edge_records[1].from_B",
+        "$.edge_records[2].from_B",
+        "$.edge_records[3].from_B",
+        "$.edge_records[4].from_B",
+        "$.edge_records[5].from_B",
+        "$.edge_records[6].from_B",
+        "$.edge_records[7].from_B",
+        "$.edge_records[8].from_B",
+        "$.edge_records[9].from_B"
+      ],
+      "from_C": [
+        "$.edge_records[0].from_C",
+        "$.edge_records[1].from_C",
+        "$.edge_records[2].from_C",
+        "$.edge_records[3].from_C",
+        "$.edge_records[4].from_C",
+        "$.edge_records[5].from_C",
+        "$.edge_records[6].from_C",
+        "$.edge_records[7].from_C",
+        "$.edge_records[8].from_C",
+        "$.edge_records[9].from_C"
+      ],
+      "slot_delta_mod15": [
+        "$.edge_records[0].slot_delta_mod15",
+        "$.edge_records[1].slot_delta_mod15",
+        "$.edge_records[2].slot_delta_mod15",
+        "$.edge_records[3].slot_delta_mod15",
+        "$.edge_records[4].slot_delta_mod15",
+        "$.edge_records[5].slot_delta_mod15",
+        "$.edge_records[6].slot_delta_mod15",
+        "$.edge_records[7].slot_delta_mod15",
+        "$.edge_records[8].slot_delta_mod15",
+        "$.edge_records[9].slot_delta_mod15"
+      ],
+      "to_A": [
+        "$.edge_records[0].to_A",
+        "$.edge_records[1].to_A",
+        "$.edge_records[2].to_A",
+        "$.edge_records[3].to_A",
+        "$.edge_records[4].to_A",
+        "$.edge_records[5].to_A",
+        "$.edge_records[6].to_A",
+        "$.edge_records[7].to_A",
+        "$.edge_records[8].to_A",
+        "$.edge_records[9].to_A"
+      ],
+      "to_B": [
+        "$.edge_records[0].to_B",
+        "$.edge_records[1].to_B",
+        "$.edge_records[2].to_B",
+        "$.edge_records[3].to_B",
+        "$.edge_records[4].to_B",
+        "$.edge_records[5].to_B",
+        "$.edge_records[6].to_B",
+        "$.edge_records[7].to_B",
+        "$.edge_records[8].to_B",
+        "$.edge_records[9].to_B"
+      ],
+      "to_C": [
+        "$.edge_records[0].to_C",
+        "$.edge_records[1].to_C",
+        "$.edge_records[2].to_C",
+        "$.edge_records[3].to_C",
+        "$.edge_records[4].to_C",
+        "$.edge_records[5].to_C",
+        "$.edge_records[6].to_C",
+        "$.edge_records[7].to_C",
+        "$.edge_records[8].to_C",
+        "$.edge_records[9].to_C"
+      ]
+    }
+  },
+  "statement": "Artifact 011 is a source schema inspection of the imported source file. It checks whether edge_records are the first available phi-ready layer for source-construction phi. The inspection supports that source replay remains open: the imported file exposes phi-ready edge_records, but does not itself prove how those edge_records are generated from deeper native construction. answer-label leakage remains open at the construction-origin level. This is not native closure, not full role-labeled shared_B universe derivation, and not Gap A closure.",
+  "status": "source_construction_source_schema_inspection_recorded",
+  "top_level_profile": [
+    {
+      "kind": "str",
+      "path": "$.schema",
+      "sample_type": "str",
+      "size": null
+    },
+    {
+      "kind": "str",
+      "path": "$.status",
+      "sample_type": "str",
+      "size": null
+    },
+    {
+      "kind": "str",
+      "path": "$.timestamp_utc",
+      "sample_type": "str",
+      "size": null
+    },
+    {
+      "kind": "str",
+      "path": "$.purpose",
+      "sample_type": "str",
+      "size": null
+    },
+    {
+      "kind": "dict",
+      "path": "$.summary",
+      "sample_type": "dict",
+      "size": 15
+    },
+    {
+      "kind": "list",
+      "path": "$.candidate_results",
+      "sample_type": "dict",
+      "size": 10
+    },
+    {
+      "kind": "list",
+      "path": "$.two_map_exact_hits",
+      "sample_type": "empty",
+      "size": 0
+    },
+    {
+      "kind": "list",
+      "path": "$.edge_records",
+      "sample_type": "dict",
+      "size": 24
+    },
+    {
+      "kind": "list",
+      "path": "$.missing_endpoint",
+      "sample_type": "empty",
+      "size": 0
+    },
+    {
+      "kind": "list",
+      "path": "$.checks",
+      "sample_type": "dict",
+      "size": 8
+    },
+    {
+      "kind": "list",
+      "path": "$.boundary",
+      "sample_type": "str",
+      "size": 4
+    }
+  ],
+  "verdict": "edge_records_first_phi_ready_layer_in_imported_source"
+}

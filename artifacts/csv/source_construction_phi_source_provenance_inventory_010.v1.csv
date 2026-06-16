@@ -1,0 +1,19 @@
+file,field,count,field_seen,example_paths
+source/project24/g60_native_overlay_generator_family_search_001.v1.json,edge_role,24,True,$.edge_records[0].edge_role | $.edge_records[1].edge_role | $.edge_records[2].edge_role
+source/project24/g60_native_overlay_generator_family_search_001.v1.json,from_A,24,True,$.edge_records[0].from_A | $.edge_records[1].from_A | $.edge_records[2].from_A
+source/project24/g60_native_overlay_generator_family_search_001.v1.json,from_B,24,True,$.edge_records[0].from_B | $.edge_records[1].from_B | $.edge_records[2].from_B
+source/project24/g60_native_overlay_generator_family_search_001.v1.json,from_C,24,True,$.edge_records[0].from_C | $.edge_records[1].from_C | $.edge_records[2].from_C
+source/project24/g60_native_overlay_generator_family_search_001.v1.json,to_A,24,True,$.edge_records[0].to_A | $.edge_records[1].to_A | $.edge_records[2].to_A
+source/project24/g60_native_overlay_generator_family_search_001.v1.json,to_B,24,True,$.edge_records[0].to_B | $.edge_records[1].to_B | $.edge_records[2].to_B
+source/project24/g60_native_overlay_generator_family_search_001.v1.json,to_C,24,True,$.edge_records[0].to_C | $.edge_records[1].to_C | $.edge_records[2].to_C
+source/project24/g60_native_overlay_generator_family_search_001.v1.json,slot_delta_mod15,24,True,$.edge_records[0].slot_delta_mod15 | $.edge_records[1].slot_delta_mod15 | $.edge_records[2].slot_delta_mod15
+source/project24/g60_native_overlay_generator_family_search_001.v1.json,fiber_delta_mod60,24,True,$.edge_records[0].fiber_delta_mod60 | $.edge_records[1].fiber_delta_mod60 | $.edge_records[2].fiber_delta_mod60
+source/project24/local_completion_grammar_handoff_070.v1.json,edge_role,0,False,
+source/project24/local_completion_grammar_handoff_070.v1.json,from_A,0,False,
+source/project24/local_completion_grammar_handoff_070.v1.json,from_B,0,False,
+source/project24/local_completion_grammar_handoff_070.v1.json,from_C,0,False,
+source/project24/local_completion_grammar_handoff_070.v1.json,to_A,0,False,
+source/project24/local_completion_grammar_handoff_070.v1.json,to_B,0,False,
+source/project24/local_completion_grammar_handoff_070.v1.json,to_C,0,False,
+source/project24/local_completion_grammar_handoff_070.v1.json,slot_delta_mod15,0,False,
+source/project24/local_completion_grammar_handoff_070.v1.json,fiber_delta_mod60,0,False,

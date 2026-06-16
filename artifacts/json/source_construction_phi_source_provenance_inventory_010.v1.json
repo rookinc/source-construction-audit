@@ -1,0 +1,1047 @@
+{
+  "audit_id": "010",
+  "audit_pass": true,
+  "boundary": {
+    "answer_label_leakage_remains_open": true,
+    "full_role_labeled_shared_B_universe_derived": false,
+    "gap_a_closure": false,
+    "inventory_only": true,
+    "native_closure": false,
+    "source_replay": false
+  },
+  "checks": {
+    "all_phi_fields_seen_in_source": true,
+    "all_target_signatures_found_in_exact_source_records": true,
+    "answer_label_leakage_remains_open": true,
+    "exact_nine_field_source_record_count": 24,
+    "forbidden_phrases_absent": true,
+    "form_index_used_for_matching": false,
+    "gap_a_closure": false,
+    "input_009_pass": true,
+    "label_fields_are_not_used_for_matching": true,
+    "ledger_row_id_used_for_matching": false,
+    "matched_target_signature_count": 24,
+    "native_closure": false,
+    "phi_field_count": 9,
+    "required_phrases_present": true,
+    "source_directory_exists": true,
+    "source_json_file_count": 2,
+    "source_json_file_count_positive": true,
+    "target_row_count": 24,
+    "target_row_count_is_24": true,
+    "target_signature_count": 24
+  },
+  "duplicate_source_signatures": {},
+  "exact_source_record_locations_top": [
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[0]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":57,\"from_A\":7,\"from_B\":11,\"from_C\":14,\"slot_delta_mod15\":3,\"to_A\":7,\"to_B\":14,\"to_C\":11}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[1]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":51,\"from_A\":7,\"from_B\":14,\"from_C\":11,\"slot_delta_mod15\":0,\"to_A\":3,\"to_B\":14,\"to_C\":2}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[2]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":12,\"from_A\":3,\"from_B\":14,\"from_C\":2,\"slot_delta_mod15\":3,\"to_A\":3,\"to_B\":2,\"to_C\":14}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[3]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":57,\"from_A\":3,\"from_B\":2,\"from_C\":14,\"slot_delta_mod15\":0,\"to_A\":1,\"to_B\":2,\"to_C\":11}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[4]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":51,\"from_A\":1,\"from_B\":2,\"from_C\":11,\"slot_delta_mod15\":9,\"to_A\":1,\"to_B\":11,\"to_C\":2}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[5]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":12,\"from_A\":1,\"from_B\":11,\"from_C\":2,\"slot_delta_mod15\":0,\"to_A\":7,\"to_B\":11,\"to_C\":14}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[6]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":3,\"from_A\":9,\"from_B\":13,\"from_C\":10,\"slot_delta_mod15\":12,\"to_A\":9,\"to_B\":10,\"to_C\":13}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[7]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":48,\"from_A\":9,\"from_B\":10,\"from_C\":13,\"slot_delta_mod15\":0,\"to_A\":0,\"to_B\":10,\"to_C\":1}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[8]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":9,\"from_A\":0,\"from_B\":10,\"from_C\":1,\"slot_delta_mod15\":6,\"to_A\":0,\"to_B\":1,\"to_C\":10}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[9]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":3,\"from_A\":0,\"from_B\":1,\"from_C\":10,\"slot_delta_mod15\":0,\"to_A\":2,\"to_B\":1,\"to_C\":13}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[10]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":48,\"from_A\":2,\"from_B\":1,\"from_C\":13,\"slot_delta_mod15\":12,\"to_A\":2,\"to_B\":13,\"to_C\":1}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[11]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":9,\"from_A\":2,\"from_B\":13,\"from_C\":1,\"slot_delta_mod15\":0,\"to_A\":9,\"to_B\":13,\"to_C\":10}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[12]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":2,\"from_A\":1,\"from_B\":2,\"from_C\":0,\"slot_delta_mod15\":13,\"to_A\":1,\"to_B\":0,\"to_C\":2}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[13]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":3,\"from_A\":1,\"from_B\":0,\"from_C\":2,\"slot_delta_mod15\":0,\"to_A\":10,\"to_B\":0,\"to_C\":5}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[14]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":55,\"from_A\":10,\"from_B\":0,\"from_C\":5,\"slot_delta_mod15\":5,\"to_A\":10,\"to_B\":5,\"to_C\":0}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[15]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":2,\"from_A\":10,\"from_B\":5,\"from_C\":0,\"slot_delta_mod15\":0,\"to_A\":12,\"to_B\":5,\"to_C\":2}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[16]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":3,\"from_A\":12,\"from_B\":5,\"from_C\":2,\"slot_delta_mod15\":12,\"to_A\":12,\"to_B\":2,\"to_C\":5}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[17]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":55,\"from_A\":12,\"from_B\":2,\"from_C\":5,\"slot_delta_mod15\":0,\"to_A\":1,\"to_B\":2,\"to_C\":0}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[18]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":2,\"from_A\":3,\"from_B\":4,\"from_C\":2,\"slot_delta_mod15\":13,\"to_A\":3,\"to_B\":2,\"to_C\":4}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[19]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":1,\"from_A\":3,\"from_B\":2,\"from_C\":4,\"slot_delta_mod15\":0,\"to_A\":12,\"to_B\":2,\"to_C\":5}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[20]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":57,\"from_A\":12,\"from_B\":2,\"from_C\":5,\"slot_delta_mod15\":3,\"to_A\":12,\"to_B\":5,\"to_C\":2}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[21]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":2,\"from_A\":12,\"from_B\":5,\"from_C\":2,\"slot_delta_mod15\":0,\"to_A\":10,\"to_B\":5,\"to_C\":4}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[22]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":1,\"from_A\":10,\"from_B\":5,\"from_C\":4,\"slot_delta_mod15\":14,\"to_A\":10,\"to_B\":4,\"to_C\":5}"
+    },
+    {
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "path": "$.edge_records[23]",
+      "risk_fields_present": [
+        "form_index"
+      ],
+      "signature": "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":57,\"from_A\":10,\"from_B\":4,\"from_C\":5,\"slot_delta_mod15\":0,\"to_A\":3,\"to_B\":4,\"to_C\":2}"
+    }
+  ],
+  "field_file_hits": {
+    "edge_role": [
+      "source/project24/g60_native_overlay_generator_family_search_001.v1.json"
+    ],
+    "fiber_delta_mod60": [
+      "source/project24/g60_native_overlay_generator_family_search_001.v1.json"
+    ],
+    "from_A": [
+      "source/project24/g60_native_overlay_generator_family_search_001.v1.json"
+    ],
+    "from_B": [
+      "source/project24/g60_native_overlay_generator_family_search_001.v1.json"
+    ],
+    "from_C": [
+      "source/project24/g60_native_overlay_generator_family_search_001.v1.json"
+    ],
+    "slot_delta_mod15": [
+      "source/project24/g60_native_overlay_generator_family_search_001.v1.json"
+    ],
+    "to_A": [
+      "source/project24/g60_native_overlay_generator_family_search_001.v1.json"
+    ],
+    "to_B": [
+      "source/project24/g60_native_overlay_generator_family_search_001.v1.json"
+    ],
+    "to_C": [
+      "source/project24/g60_native_overlay_generator_family_search_001.v1.json"
+    ]
+  },
+  "file_scans": [
+    {
+      "candidate_record_count": 24,
+      "candidate_records_top": [
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[0]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[10]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[11]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[12]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[13]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[14]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[15]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[16]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[17]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[18]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[19]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[1]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[20]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[21]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[22]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[23]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[2]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[3]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[4]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[5]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[6]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[7]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[8]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        },
+        {
+          "fields": [
+            "edge_role",
+            "fiber_delta_mod60",
+            "from_A",
+            "from_B",
+            "from_C",
+            "slot_delta_mod15",
+            "to_A",
+            "to_B",
+            "to_C"
+          ],
+          "hit_count": 9,
+          "path": "$.edge_records[9]",
+          "risk_fields_present": [
+            "form_index"
+          ]
+        }
+      ],
+      "exact_record_count": 24,
+      "exact_records": [
+        {
+          "path": "$.edge_records[0]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":57,\"from_A\":7,\"from_B\":11,\"from_C\":14,\"slot_delta_mod15\":3,\"to_A\":7,\"to_B\":14,\"to_C\":11}"
+        },
+        {
+          "path": "$.edge_records[1]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":51,\"from_A\":7,\"from_B\":14,\"from_C\":11,\"slot_delta_mod15\":0,\"to_A\":3,\"to_B\":14,\"to_C\":2}"
+        },
+        {
+          "path": "$.edge_records[2]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":12,\"from_A\":3,\"from_B\":14,\"from_C\":2,\"slot_delta_mod15\":3,\"to_A\":3,\"to_B\":2,\"to_C\":14}"
+        },
+        {
+          "path": "$.edge_records[3]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":57,\"from_A\":3,\"from_B\":2,\"from_C\":14,\"slot_delta_mod15\":0,\"to_A\":1,\"to_B\":2,\"to_C\":11}"
+        },
+        {
+          "path": "$.edge_records[4]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":51,\"from_A\":1,\"from_B\":2,\"from_C\":11,\"slot_delta_mod15\":9,\"to_A\":1,\"to_B\":11,\"to_C\":2}"
+        },
+        {
+          "path": "$.edge_records[5]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":12,\"from_A\":1,\"from_B\":11,\"from_C\":2,\"slot_delta_mod15\":0,\"to_A\":7,\"to_B\":11,\"to_C\":14}"
+        },
+        {
+          "path": "$.edge_records[6]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":3,\"from_A\":9,\"from_B\":13,\"from_C\":10,\"slot_delta_mod15\":12,\"to_A\":9,\"to_B\":10,\"to_C\":13}"
+        },
+        {
+          "path": "$.edge_records[7]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":48,\"from_A\":9,\"from_B\":10,\"from_C\":13,\"slot_delta_mod15\":0,\"to_A\":0,\"to_B\":10,\"to_C\":1}"
+        },
+        {
+          "path": "$.edge_records[8]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":9,\"from_A\":0,\"from_B\":10,\"from_C\":1,\"slot_delta_mod15\":6,\"to_A\":0,\"to_B\":1,\"to_C\":10}"
+        },
+        {
+          "path": "$.edge_records[9]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":3,\"from_A\":0,\"from_B\":1,\"from_C\":10,\"slot_delta_mod15\":0,\"to_A\":2,\"to_B\":1,\"to_C\":13}"
+        },
+        {
+          "path": "$.edge_records[10]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":48,\"from_A\":2,\"from_B\":1,\"from_C\":13,\"slot_delta_mod15\":12,\"to_A\":2,\"to_B\":13,\"to_C\":1}"
+        },
+        {
+          "path": "$.edge_records[11]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":9,\"from_A\":2,\"from_B\":13,\"from_C\":1,\"slot_delta_mod15\":0,\"to_A\":9,\"to_B\":13,\"to_C\":10}"
+        },
+        {
+          "path": "$.edge_records[12]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":2,\"from_A\":1,\"from_B\":2,\"from_C\":0,\"slot_delta_mod15\":13,\"to_A\":1,\"to_B\":0,\"to_C\":2}"
+        },
+        {
+          "path": "$.edge_records[13]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":3,\"from_A\":1,\"from_B\":0,\"from_C\":2,\"slot_delta_mod15\":0,\"to_A\":10,\"to_B\":0,\"to_C\":5}"
+        },
+        {
+          "path": "$.edge_records[14]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":55,\"from_A\":10,\"from_B\":0,\"from_C\":5,\"slot_delta_mod15\":5,\"to_A\":10,\"to_B\":5,\"to_C\":0}"
+        },
+        {
+          "path": "$.edge_records[15]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":2,\"from_A\":10,\"from_B\":5,\"from_C\":0,\"slot_delta_mod15\":0,\"to_A\":12,\"to_B\":5,\"to_C\":2}"
+        },
+        {
+          "path": "$.edge_records[16]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":3,\"from_A\":12,\"from_B\":5,\"from_C\":2,\"slot_delta_mod15\":12,\"to_A\":12,\"to_B\":2,\"to_C\":5}"
+        },
+        {
+          "path": "$.edge_records[17]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":55,\"from_A\":12,\"from_B\":2,\"from_C\":5,\"slot_delta_mod15\":0,\"to_A\":1,\"to_B\":2,\"to_C\":0}"
+        },
+        {
+          "path": "$.edge_records[18]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":2,\"from_A\":3,\"from_B\":4,\"from_C\":2,\"slot_delta_mod15\":13,\"to_A\":3,\"to_B\":2,\"to_C\":4}"
+        },
+        {
+          "path": "$.edge_records[19]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":1,\"from_A\":3,\"from_B\":2,\"from_C\":4,\"slot_delta_mod15\":0,\"to_A\":12,\"to_B\":2,\"to_C\":5}"
+        },
+        {
+          "path": "$.edge_records[20]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":57,\"from_A\":12,\"from_B\":2,\"from_C\":5,\"slot_delta_mod15\":3,\"to_A\":12,\"to_B\":5,\"to_C\":2}"
+        },
+        {
+          "path": "$.edge_records[21]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":2,\"from_A\":12,\"from_B\":5,\"from_C\":2,\"slot_delta_mod15\":0,\"to_A\":10,\"to_B\":5,\"to_C\":4}"
+        },
+        {
+          "path": "$.edge_records[22]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":1,\"from_A\":10,\"from_B\":5,\"from_C\":4,\"slot_delta_mod15\":14,\"to_A\":10,\"to_B\":4,\"to_C\":5}"
+        },
+        {
+          "path": "$.edge_records[23]",
+          "risk_fields_present": [
+            "form_index"
+          ],
+          "signature": "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":57,\"from_A\":10,\"from_B\":4,\"from_C\":5,\"slot_delta_mod15\":0,\"to_A\":3,\"to_B\":4,\"to_C\":2}"
+        }
+      ],
+      "field_counts": {
+        "edge_role": 24,
+        "fiber_delta_mod60": 24,
+        "from_A": 24,
+        "from_B": 24,
+        "from_C": 24,
+        "slot_delta_mod15": 24,
+        "to_A": 24,
+        "to_B": 24,
+        "to_C": 24
+      },
+      "field_paths": {
+        "edge_role": [
+          "$.edge_records[0].edge_role",
+          "$.edge_records[1].edge_role",
+          "$.edge_records[2].edge_role",
+          "$.edge_records[3].edge_role",
+          "$.edge_records[4].edge_role",
+          "$.edge_records[5].edge_role",
+          "$.edge_records[6].edge_role",
+          "$.edge_records[7].edge_role",
+          "$.edge_records[8].edge_role",
+          "$.edge_records[9].edge_role"
+        ],
+        "fiber_delta_mod60": [
+          "$.edge_records[0].fiber_delta_mod60",
+          "$.edge_records[1].fiber_delta_mod60",
+          "$.edge_records[2].fiber_delta_mod60",
+          "$.edge_records[3].fiber_delta_mod60",
+          "$.edge_records[4].fiber_delta_mod60",
+          "$.edge_records[5].fiber_delta_mod60",
+          "$.edge_records[6].fiber_delta_mod60",
+          "$.edge_records[7].fiber_delta_mod60",
+          "$.edge_records[8].fiber_delta_mod60",
+          "$.edge_records[9].fiber_delta_mod60"
+        ],
+        "from_A": [
+          "$.edge_records[0].from_A",
+          "$.edge_records[1].from_A",
+          "$.edge_records[2].from_A",
+          "$.edge_records[3].from_A",
+          "$.edge_records[4].from_A",
+          "$.edge_records[5].from_A",
+          "$.edge_records[6].from_A",
+          "$.edge_records[7].from_A",
+          "$.edge_records[8].from_A",
+          "$.edge_records[9].from_A"
+        ],
+        "from_B": [
+          "$.edge_records[0].from_B",
+          "$.edge_records[1].from_B",
+          "$.edge_records[2].from_B",
+          "$.edge_records[3].from_B",
+          "$.edge_records[4].from_B",
+          "$.edge_records[5].from_B",
+          "$.edge_records[6].from_B",
+          "$.edge_records[7].from_B",
+          "$.edge_records[8].from_B",
+          "$.edge_records[9].from_B"
+        ],
+        "from_C": [
+          "$.edge_records[0].from_C",
+          "$.edge_records[1].from_C",
+          "$.edge_records[2].from_C",
+          "$.edge_records[3].from_C",
+          "$.edge_records[4].from_C",
+          "$.edge_records[5].from_C",
+          "$.edge_records[6].from_C",
+          "$.edge_records[7].from_C",
+          "$.edge_records[8].from_C",
+          "$.edge_records[9].from_C"
+        ],
+        "slot_delta_mod15": [
+          "$.edge_records[0].slot_delta_mod15",
+          "$.edge_records[1].slot_delta_mod15",
+          "$.edge_records[2].slot_delta_mod15",
+          "$.edge_records[3].slot_delta_mod15",
+          "$.edge_records[4].slot_delta_mod15",
+          "$.edge_records[5].slot_delta_mod15",
+          "$.edge_records[6].slot_delta_mod15",
+          "$.edge_records[7].slot_delta_mod15",
+          "$.edge_records[8].slot_delta_mod15",
+          "$.edge_records[9].slot_delta_mod15"
+        ],
+        "to_A": [
+          "$.edge_records[0].to_A",
+          "$.edge_records[1].to_A",
+          "$.edge_records[2].to_A",
+          "$.edge_records[3].to_A",
+          "$.edge_records[4].to_A",
+          "$.edge_records[5].to_A",
+          "$.edge_records[6].to_A",
+          "$.edge_records[7].to_A",
+          "$.edge_records[8].to_A",
+          "$.edge_records[9].to_A"
+        ],
+        "to_B": [
+          "$.edge_records[0].to_B",
+          "$.edge_records[1].to_B",
+          "$.edge_records[2].to_B",
+          "$.edge_records[3].to_B",
+          "$.edge_records[4].to_B",
+          "$.edge_records[5].to_B",
+          "$.edge_records[6].to_B",
+          "$.edge_records[7].to_B",
+          "$.edge_records[8].to_B",
+          "$.edge_records[9].to_B"
+        ],
+        "to_C": [
+          "$.edge_records[0].to_C",
+          "$.edge_records[1].to_C",
+          "$.edge_records[2].to_C",
+          "$.edge_records[3].to_C",
+          "$.edge_records[4].to_C",
+          "$.edge_records[5].to_C",
+          "$.edge_records[6].to_C",
+          "$.edge_records[7].to_C",
+          "$.edge_records[8].to_C",
+          "$.edge_records[9].to_C"
+        ]
+      },
+      "file": "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+      "risk_counts": {
+        "form_index": 24
+      }
+    },
+    {
+      "candidate_record_count": 0,
+      "candidate_records_top": [],
+      "exact_record_count": 0,
+      "exact_records": [],
+      "field_counts": {},
+      "field_paths": {},
+      "file": "source/project24/local_completion_grammar_handoff_070.v1.json",
+      "risk_counts": {}
+    }
+  ],
+  "forbidden_phrases_found": [],
+  "inputs": {
+    "label_removed_rows_007": "artifacts/csv/source_construction_phi_label_removed_rows_007.v1.csv",
+    "source_directory": "source",
+    "theorem_candidate_009": "artifacts/json/source_construction_phi_theorem_candidate_009.v1.json"
+  },
+  "missing_required_phrases": [],
+  "missing_target_signatures": [],
+  "phi_fields": [
+    "edge_role",
+    "from_A",
+    "from_B",
+    "from_C",
+    "to_A",
+    "to_B",
+    "to_C",
+    "slot_delta_mod15",
+    "fiber_delta_mod60"
+  ],
+  "risk_fields": [
+    "form_index",
+    "ledger_row_id"
+  ],
+  "source_files": [
+    "source/project24/g60_native_overlay_generator_family_search_001.v1.json",
+    "source/project24/local_completion_grammar_handoff_070.v1.json"
+  ],
+  "statement": "Artifact 010 is a source-provenance inventory for source-construction phi. It scans the source directory for the phi fields and compares source-side signatures without using label fields. label fields are not used for matching. answer-label leakage remains open because this is an inventory, not a replay from native construction. This is not native closure, not full role-labeled shared_B universe derivation, and not Gap A closure.",
+  "status": "source_construction_phi_source_provenance_inventory_recorded",
+  "total_field_counts": {
+    "edge_role": 24,
+    "fiber_delta_mod60": 24,
+    "from_A": 24,
+    "from_B": 24,
+    "from_C": 24,
+    "slot_delta_mod15": 24,
+    "to_A": 24,
+    "to_B": 24,
+    "to_C": 24
+  },
+  "total_risk_counts": {
+    "form_index": 24
+  },
+  "verdict": "source_provenance_inventory_exact_signatures_found"
+}

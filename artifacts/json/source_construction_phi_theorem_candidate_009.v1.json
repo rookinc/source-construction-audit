@@ -1,0 +1,202 @@
+{
+  "audit_id": "009",
+  "audit_pass": true,
+  "checks": {
+    "all_inputs_exist": true,
+    "answer_label_leakage_remains_open": true,
+    "directed_cycle_phi_004_pass": true,
+    "forbidden_phrases_absent": true,
+    "gap_a_closure": false,
+    "label_column_independence_passed": true,
+    "ledger_002_pass": true,
+    "load_bearing_fields_recorded": true,
+    "native_closure": false,
+    "phi_field_ablation_008_pass": true,
+    "phi_field_source_006_pass": true,
+    "phi_independence_005_pass": true,
+    "phi_label_removal_007_pass": true,
+    "required_phrases_present": true,
+    "theorem_candidate_recorded": true,
+    "weak_component_003_failed_as_expected": true
+  },
+  "dependency_ledger": [
+    {
+      "audit_id": "002",
+      "pass": true,
+      "path": "artifacts/json/source_construction_ledger_inventory_002.v1.json",
+      "status": "source_construction_ledger_inventory_recorded",
+      "verdict": "source_construction_ledger_ready"
+    },
+    {
+      "audit_id": "003",
+      "pass": false,
+      "path": "artifacts/json/source_construction_phi_candidate_003.v1.json",
+      "status": "source_construction_phi_candidate_recorded",
+      "verdict": "phi_candidate_failed"
+    },
+    {
+      "audit_id": "004",
+      "pass": true,
+      "path": "artifacts/json/source_construction_directed_cycle_phi_004.v1.json",
+      "status": "source_construction_directed_cycle_phi_recorded",
+      "verdict": "directed_cycle_phi_exact_on_24_row_register"
+    },
+    {
+      "audit_id": "005",
+      "pass": true,
+      "path": "artifacts/json/source_construction_phi_independence_audit_005.v1.json",
+      "status": "source_construction_phi_independence_audit_recorded",
+      "verdict": "phi_row_order_independence_passed"
+    },
+    {
+      "audit_id": "006",
+      "pass": true,
+      "path": "artifacts/json/source_construction_phi_field_source_audit_006.v1.json",
+      "status": "source_construction_phi_field_source_audit_recorded",
+      "verdict": "phi_fields_source_side_clean_in_ledger"
+    },
+    {
+      "audit_id": "007",
+      "pass": true,
+      "path": "artifacts/json/source_construction_phi_label_removal_audit_007.v1.json",
+      "status": "source_construction_phi_label_removal_audit_recorded",
+      "verdict": "phi_survives_label_column_removal"
+    },
+    {
+      "audit_id": "008",
+      "pass": true,
+      "path": "artifacts/json/source_construction_phi_field_ablation_008.v1.json",
+      "status": "source_construction_phi_field_ablation_recorded",
+      "verdict": "tested_phi_inputs_are_load_bearing"
+    }
+  ],
+  "forbidden_phrases_found": [],
+  "missing_required_phrases": [],
+  "statement": "Artifact 009 is a theorem-candidate summary for source-construction phi. It packages the directed role-successor cycle law, label-column independence, and load-bearing field audit. answer-label leakage remains open at the deeper construction-origin level. This is not native closure, not full role-labeled shared_B universe derivation, and not Gap A closure.",
+  "status": "source_construction_phi_theorem_candidate_recorded",
+  "theorem_candidate": {
+    "accepted_claims": [
+      "A source-construction phi candidate exists for the 24-row register.",
+      "The phi candidate uses directed role-successor cycles rather than row order.",
+      "The phi candidate does not require form_index or ledger_row_id in the working rows.",
+      "The tested phi inputs are load-bearing within the current rule family."
+    ],
+    "assignment_law": {
+      "capture_rule": "capture iff slot_delta_mod15 > fiber_delta_mod60",
+      "fields": [
+        "slot_delta_mod15",
+        "fiber_delta_mod60",
+        "edge_role"
+      ],
+      "rules": [
+        {
+          "condition": "capture_count == 0",
+          "level": "edge"
+        },
+        {
+          "condition": "capture_count == 1",
+          "level": "hinge"
+        },
+        {
+          "condition": "capture_count == 2 and TI.fiber_delta_mod60 == 3",
+          "level": "closed_face"
+        },
+        {
+          "condition": "capture_count == 2 and TI.fiber_delta_mod60 == 1",
+          "level": "filled_cell"
+        }
+      ]
+    },
+    "boundaries": [
+      "This is a theorem-candidate summary, not native closure.",
+      "This is not Gap A closure.",
+      "This is not full role-labeled shared_B universe derivation.",
+      "label-column independence passed, but deeper construction-origin leakage remains open.",
+      "This does not prove minimality over all possible source-construction rules."
+    ],
+    "codomain": [
+      "edge",
+      "hinge",
+      "closed_face",
+      "filled_cell"
+    ],
+    "cycle_law": {
+      "continuity": "row.to_ABC = next_row.from_ABC",
+      "fields": [
+        "from_A",
+        "from_B",
+        "from_C",
+        "to_A",
+        "to_B",
+        "to_C",
+        "edge_role"
+      ],
+      "name": "directed role-successor cycle",
+      "role_order": [
+        "WX",
+        "XY",
+        "YZ",
+        "ZT",
+        "TI",
+        "IW",
+        "WX"
+      ]
+    },
+    "domain": "24-row local completion register",
+    "evidence_stack": [
+      {
+        "audit": "002",
+        "result": "exports the 24-row register and separates allowed construction fields from evaluation/order-risk fields",
+        "role": "ledger"
+      },
+      {
+        "audit": "003",
+        "result": "weak component grouping fails by merging the two two-capture levels",
+        "role": "failed ablation"
+      },
+      {
+        "audit": "004",
+        "result": "directed role-successor phi exactly recovers the four six-row levels",
+        "role": "positive construction"
+      },
+      {
+        "audit": "005",
+        "result": "phi survives original, reversed, sorted, and shuffled row orders",
+        "role": "row-order independence"
+      },
+      {
+        "audit": "006",
+        "result": "phi fields are source-side or native-transition fields in the ledger",
+        "role": "field-source check"
+      },
+      {
+        "audit": "007",
+        "result": "phi survives after form_index and ledger_row_id are removed from working rows",
+        "role": "label-column independence"
+      },
+      {
+        "audit": "008",
+        "result": "all tested field and rule ablations fail in the current rule family",
+        "role": "load-bearing test"
+      }
+    ],
+    "informal_statement": "On the 24-row local completion register, a source-construction phi can be computed from directed role-successor cycles and source-side/native-transition fields. The resulting phi partitions the 24 rows into four six-row levels: edge, hinge, closed_face, and filled_cell.",
+    "name": "directed_role_successor_source_construction_phi",
+    "next_tests": [
+      {
+        "name": "construction-origin provenance audit",
+        "purpose": "trace where from_ABC, to_ABC, edge_role, slot_delta_mod15, and fiber_delta_mod60 originate in upstream construction files"
+      },
+      {
+        "name": "external source replay",
+        "purpose": "recompute the 24-row register from upstream source files rather than copied Project 24 rows"
+      },
+      {
+        "name": "rule-family minimization",
+        "purpose": "test whether an alternative smaller source-construction rule can recover the same phi"
+      }
+    ],
+    "status": "theorem_candidate"
+  },
+  "verdict": "source_construction_phi_theorem_candidate_ready"
+}

@@ -1,0 +1,8 @@
+audit_id,pass,verdict,role
+002,True,source_construction_ledger_ready,ledger
+003,False,phi_candidate_failed,failed weak-component ablation
+004,True,directed_cycle_phi_exact_on_24_row_register,positive directed-cycle phi
+005,True,phi_row_order_independence_passed,row-order independence
+006,True,phi_fields_source_side_clean_in_ledger,field-source audit
+007,True,phi_survives_label_column_removal,label-column removal
+008,True,tested_phi_inputs_are_load_bearing,load-bearing ablation

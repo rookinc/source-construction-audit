@@ -1,0 +1,971 @@
+{
+  "schema": "g60_native_overlay_generator_family_search_001.v1",
+  "status": "g60_native_overlay_generator_not_found_in_tested_family",
+  "timestamp_utc": "2026-06-15T14:00:56.601438+00:00",
+  "purpose": "Test a bounded family of simple native G60 maps as candidate generators for WXYZTI overlay edges.",
+  "summary": {
+    "forms_key": "wxyzti_admitted_forms",
+    "form_count": 4,
+    "edge_record_count": 24,
+    "label_counts": {
+      "reverse_partner": 12,
+      "shared_B": 12
+    },
+    "role_counts": {
+      "IW": 4,
+      "TI": 4,
+      "WX": 4,
+      "XY": 4,
+      "YZ": 4,
+      "ZT": 4
+    },
+    "candidate_count": 10,
+    "candidate_names": [
+      "identity",
+      "minus_15_mod60",
+      "minus_30_mod60",
+      "old_g60_pair_involution_relabelled",
+      "old_hyperxi_a_relabelled",
+      "old_hyperxi_ab_relabelled",
+      "old_hyperxi_b_relabelled",
+      "old_hyperxi_ba_relabelled",
+      "plus_15_mod60",
+      "plus_30_mod60"
+    ],
+    "best_single_candidate": {
+      "candidate": "old_hyperxi_ab_relabelled",
+      "is_permutation": true,
+      "matched_edges": 4,
+      "matched_by_label": {
+        "reverse_partner": 2,
+        "shared_B": 2
+      },
+      "missed_by_label": {
+        "reverse_partner": 10,
+        "shared_B": 10
+      },
+      "exact_all": false,
+      "exact_reverse_partner": false,
+      "exact_shared_B": false
+    },
+    "two_map_exact_hit_count": 0,
+    "strict_native_two_map_generator_found": false,
+    "fiber_delta_by_label": {
+      "reverse_partner": {
+        "1": 1,
+        "2": 2,
+        "3": 2,
+        "9": 1,
+        "12": 1,
+        "48": 1,
+        "51": 1,
+        "55": 1,
+        "57": 2
+      },
+      "shared_B": {
+        "1": 1,
+        "2": 2,
+        "3": 2,
+        "9": 1,
+        "12": 1,
+        "48": 1,
+        "51": 1,
+        "55": 1,
+        "57": 2
+      }
+    },
+    "slot_delta_by_label": {
+      "reverse_partner": {
+        "3": 3,
+        "5": 1,
+        "6": 1,
+        "9": 1,
+        "12": 3,
+        "13": 2,
+        "14": 1
+      },
+      "shared_B": {
+        "0": 12
+      }
+    },
+    "gap_a_closed": false,
+    "full_g900_admission_found": false,
+    "next_step": "expand_to_context_dependent_g60_native_generator_family"
+  },
+  "candidate_results": [
+    {
+      "candidate": "old_hyperxi_ab_relabelled",
+      "is_permutation": true,
+      "matched_edges": 4,
+      "matched_by_label": {
+        "reverse_partner": 2,
+        "shared_B": 2
+      },
+      "missed_by_label": {
+        "reverse_partner": 10,
+        "shared_B": 10
+      },
+      "exact_all": false,
+      "exact_reverse_partner": false,
+      "exact_shared_B": false
+    },
+    {
+      "candidate": "old_hyperxi_ba_relabelled",
+      "is_permutation": true,
+      "matched_edges": 4,
+      "matched_by_label": {
+        "reverse_partner": 2,
+        "shared_B": 2
+      },
+      "missed_by_label": {
+        "reverse_partner": 10,
+        "shared_B": 10
+      },
+      "exact_all": false,
+      "exact_reverse_partner": false,
+      "exact_shared_B": false
+    },
+    {
+      "candidate": "identity",
+      "is_permutation": true,
+      "matched_edges": 0,
+      "matched_by_label": {},
+      "missed_by_label": {
+        "reverse_partner": 12,
+        "shared_B": 12
+      },
+      "exact_all": false,
+      "exact_reverse_partner": false,
+      "exact_shared_B": false
+    },
+    {
+      "candidate": "minus_15_mod60",
+      "is_permutation": true,
+      "matched_edges": 0,
+      "matched_by_label": {},
+      "missed_by_label": {
+        "reverse_partner": 12,
+        "shared_B": 12
+      },
+      "exact_all": false,
+      "exact_reverse_partner": false,
+      "exact_shared_B": false
+    },
+    {
+      "candidate": "minus_30_mod60",
+      "is_permutation": true,
+      "matched_edges": 0,
+      "matched_by_label": {},
+      "missed_by_label": {
+        "reverse_partner": 12,
+        "shared_B": 12
+      },
+      "exact_all": false,
+      "exact_reverse_partner": false,
+      "exact_shared_B": false
+    },
+    {
+      "candidate": "old_g60_pair_involution_relabelled",
+      "is_permutation": true,
+      "matched_edges": 0,
+      "matched_by_label": {},
+      "missed_by_label": {
+        "reverse_partner": 12,
+        "shared_B": 12
+      },
+      "exact_all": false,
+      "exact_reverse_partner": false,
+      "exact_shared_B": false
+    },
+    {
+      "candidate": "old_hyperxi_a_relabelled",
+      "is_permutation": true,
+      "matched_edges": 0,
+      "matched_by_label": {},
+      "missed_by_label": {
+        "reverse_partner": 12,
+        "shared_B": 12
+      },
+      "exact_all": false,
+      "exact_reverse_partner": false,
+      "exact_shared_B": false
+    },
+    {
+      "candidate": "old_hyperxi_b_relabelled",
+      "is_permutation": true,
+      "matched_edges": 0,
+      "matched_by_label": {},
+      "missed_by_label": {
+        "reverse_partner": 12,
+        "shared_B": 12
+      },
+      "exact_all": false,
+      "exact_reverse_partner": false,
+      "exact_shared_B": false
+    },
+    {
+      "candidate": "plus_15_mod60",
+      "is_permutation": true,
+      "matched_edges": 0,
+      "matched_by_label": {},
+      "missed_by_label": {
+        "reverse_partner": 12,
+        "shared_B": 12
+      },
+      "exact_all": false,
+      "exact_reverse_partner": false,
+      "exact_shared_B": false
+    },
+    {
+      "candidate": "plus_30_mod60",
+      "is_permutation": true,
+      "matched_edges": 0,
+      "matched_by_label": {},
+      "missed_by_label": {
+        "reverse_partner": 12,
+        "shared_B": 12
+      },
+      "exact_all": false,
+      "exact_reverse_partner": false,
+      "exact_shared_B": false
+    }
+  ],
+  "two_map_exact_hits": [],
+  "edge_records": [
+    {
+      "form_index": 0,
+      "edge_index": 0,
+      "edge_role": "WX",
+      "label": "reverse_partner",
+      "from_key": "11|7|14|23,24",
+      "to_key": "14|7|11|23,24",
+      "from_slot": 11,
+      "to_slot": 14,
+      "from_fiber": 14,
+      "to_fiber": 11,
+      "from_A": 7,
+      "to_A": 7,
+      "from_B": 11,
+      "to_B": 14,
+      "from_C": 14,
+      "to_C": 11,
+      "from_columns": [
+        23,
+        24
+      ],
+      "to_columns": [
+        23,
+        24
+      ],
+      "slot_delta_mod15": 3,
+      "fiber_delta_mod60": 57
+    },
+    {
+      "form_index": 0,
+      "edge_index": 1,
+      "edge_role": "XY",
+      "label": "shared_B",
+      "from_key": "14|7|11|23,24",
+      "to_key": "14|3|2|7,12",
+      "from_slot": 14,
+      "to_slot": 14,
+      "from_fiber": 11,
+      "to_fiber": 2,
+      "from_A": 7,
+      "to_A": 3,
+      "from_B": 14,
+      "to_B": 14,
+      "from_C": 11,
+      "to_C": 2,
+      "from_columns": [
+        23,
+        24
+      ],
+      "to_columns": [
+        7,
+        12
+      ],
+      "slot_delta_mod15": 0,
+      "fiber_delta_mod60": 51
+    },
+    {
+      "form_index": 0,
+      "edge_index": 2,
+      "edge_role": "YZ",
+      "label": "reverse_partner",
+      "from_key": "14|3|2|7,12",
+      "to_key": "2|3|14|7,12",
+      "from_slot": 14,
+      "to_slot": 2,
+      "from_fiber": 2,
+      "to_fiber": 14,
+      "from_A": 3,
+      "to_A": 3,
+      "from_B": 14,
+      "to_B": 2,
+      "from_C": 2,
+      "to_C": 14,
+      "from_columns": [
+        7,
+        12
+      ],
+      "to_columns": [
+        7,
+        12
+      ],
+      "slot_delta_mod15": 3,
+      "fiber_delta_mod60": 12
+    },
+    {
+      "form_index": 0,
+      "edge_index": 3,
+      "edge_role": "ZT",
+      "label": "shared_B",
+      "from_key": "2|3|14|7,12",
+      "to_key": "2|1|11|4,5",
+      "from_slot": 2,
+      "to_slot": 2,
+      "from_fiber": 14,
+      "to_fiber": 11,
+      "from_A": 3,
+      "to_A": 1,
+      "from_B": 2,
+      "to_B": 2,
+      "from_C": 14,
+      "to_C": 11,
+      "from_columns": [
+        7,
+        12
+      ],
+      "to_columns": [
+        4,
+        5
+      ],
+      "slot_delta_mod15": 0,
+      "fiber_delta_mod60": 57
+    },
+    {
+      "form_index": 0,
+      "edge_index": 4,
+      "edge_role": "TI",
+      "label": "reverse_partner",
+      "from_key": "2|1|11|4,5",
+      "to_key": "11|1|2|4,5",
+      "from_slot": 2,
+      "to_slot": 11,
+      "from_fiber": 11,
+      "to_fiber": 2,
+      "from_A": 1,
+      "to_A": 1,
+      "from_B": 2,
+      "to_B": 11,
+      "from_C": 11,
+      "to_C": 2,
+      "from_columns": [
+        4,
+        5
+      ],
+      "to_columns": [
+        4,
+        5
+      ],
+      "slot_delta_mod15": 9,
+      "fiber_delta_mod60": 51
+    },
+    {
+      "form_index": 0,
+      "edge_index": 5,
+      "edge_role": "IW",
+      "label": "shared_B",
+      "from_key": "11|1|2|4,5",
+      "to_key": "11|7|14|23,24",
+      "from_slot": 11,
+      "to_slot": 11,
+      "from_fiber": 2,
+      "to_fiber": 14,
+      "from_A": 1,
+      "to_A": 7,
+      "from_B": 11,
+      "to_B": 11,
+      "from_C": 2,
+      "to_C": 14,
+      "from_columns": [
+        4,
+        5
+      ],
+      "to_columns": [
+        23,
+        24
+      ],
+      "slot_delta_mod15": 0,
+      "fiber_delta_mod60": 12
+    },
+    {
+      "form_index": 1,
+      "edge_index": 0,
+      "edge_role": "WX",
+      "label": "reverse_partner",
+      "from_key": "13|9|10|28,29",
+      "to_key": "10|9|13|28,29",
+      "from_slot": 13,
+      "to_slot": 10,
+      "from_fiber": 10,
+      "to_fiber": 13,
+      "from_A": 9,
+      "to_A": 9,
+      "from_B": 13,
+      "to_B": 10,
+      "from_C": 10,
+      "to_C": 13,
+      "from_columns": [
+        28,
+        29
+      ],
+      "to_columns": [
+        28,
+        29
+      ],
+      "slot_delta_mod15": 12,
+      "fiber_delta_mod60": 3
+    },
+    {
+      "form_index": 1,
+      "edge_index": 1,
+      "edge_role": "XY",
+      "label": "shared_B",
+      "from_key": "10|9|13|28,29",
+      "to_key": "10|0|1|0,2",
+      "from_slot": 10,
+      "to_slot": 10,
+      "from_fiber": 13,
+      "to_fiber": 1,
+      "from_A": 9,
+      "to_A": 0,
+      "from_B": 10,
+      "to_B": 10,
+      "from_C": 13,
+      "to_C": 1,
+      "from_columns": [
+        28,
+        29
+      ],
+      "to_columns": [
+        0,
+        2
+      ],
+      "slot_delta_mod15": 0,
+      "fiber_delta_mod60": 48
+    },
+    {
+      "form_index": 1,
+      "edge_index": 2,
+      "edge_role": "YZ",
+      "label": "reverse_partner",
+      "from_key": "10|0|1|0,2",
+      "to_key": "1|0|10|0,2",
+      "from_slot": 10,
+      "to_slot": 1,
+      "from_fiber": 1,
+      "to_fiber": 10,
+      "from_A": 0,
+      "to_A": 0,
+      "from_B": 10,
+      "to_B": 1,
+      "from_C": 1,
+      "to_C": 10,
+      "from_columns": [
+        0,
+        2
+      ],
+      "to_columns": [
+        0,
+        2
+      ],
+      "slot_delta_mod15": 6,
+      "fiber_delta_mod60": 9
+    },
+    {
+      "form_index": 1,
+      "edge_index": 3,
+      "edge_role": "ZT",
+      "label": "shared_B",
+      "from_key": "1|0|10|0,2",
+      "to_key": "1|2|13|4,9",
+      "from_slot": 1,
+      "to_slot": 1,
+      "from_fiber": 10,
+      "to_fiber": 13,
+      "from_A": 0,
+      "to_A": 2,
+      "from_B": 1,
+      "to_B": 1,
+      "from_C": 10,
+      "to_C": 13,
+      "from_columns": [
+        0,
+        2
+      ],
+      "to_columns": [
+        4,
+        9
+      ],
+      "slot_delta_mod15": 0,
+      "fiber_delta_mod60": 3
+    },
+    {
+      "form_index": 1,
+      "edge_index": 4,
+      "edge_role": "TI",
+      "label": "reverse_partner",
+      "from_key": "1|2|13|4,9",
+      "to_key": "13|2|1|4,9",
+      "from_slot": 1,
+      "to_slot": 13,
+      "from_fiber": 13,
+      "to_fiber": 1,
+      "from_A": 2,
+      "to_A": 2,
+      "from_B": 1,
+      "to_B": 13,
+      "from_C": 13,
+      "to_C": 1,
+      "from_columns": [
+        4,
+        9
+      ],
+      "to_columns": [
+        4,
+        9
+      ],
+      "slot_delta_mod15": 12,
+      "fiber_delta_mod60": 48
+    },
+    {
+      "form_index": 1,
+      "edge_index": 5,
+      "edge_role": "IW",
+      "label": "shared_B",
+      "from_key": "13|2|1|4,9",
+      "to_key": "13|9|10|28,29",
+      "from_slot": 13,
+      "to_slot": 13,
+      "from_fiber": 1,
+      "to_fiber": 10,
+      "from_A": 2,
+      "to_A": 9,
+      "from_B": 13,
+      "to_B": 13,
+      "from_C": 1,
+      "to_C": 10,
+      "from_columns": [
+        4,
+        9
+      ],
+      "to_columns": [
+        28,
+        29
+      ],
+      "slot_delta_mod15": 0,
+      "fiber_delta_mod60": 9
+    },
+    {
+      "form_index": 2,
+      "edge_index": 0,
+      "edge_role": "WX",
+      "label": "reverse_partner",
+      "from_key": "2|1|0|0,4",
+      "to_key": "0|1|2|0,4",
+      "from_slot": 2,
+      "to_slot": 0,
+      "from_fiber": 0,
+      "to_fiber": 2,
+      "from_A": 1,
+      "to_A": 1,
+      "from_B": 2,
+      "to_B": 0,
+      "from_C": 0,
+      "to_C": 2,
+      "from_columns": [
+        0,
+        4
+      ],
+      "to_columns": [
+        0,
+        4
+      ],
+      "slot_delta_mod15": 13,
+      "fiber_delta_mod60": 2
+    },
+    {
+      "form_index": 2,
+      "edge_index": 1,
+      "edge_role": "XY",
+      "label": "shared_B",
+      "from_key": "0|1|2|0,4",
+      "to_key": "0|10|5|2,17",
+      "from_slot": 0,
+      "to_slot": 0,
+      "from_fiber": 2,
+      "to_fiber": 5,
+      "from_A": 1,
+      "to_A": 10,
+      "from_B": 0,
+      "to_B": 0,
+      "from_C": 2,
+      "to_C": 5,
+      "from_columns": [
+        0,
+        4
+      ],
+      "to_columns": [
+        2,
+        17
+      ],
+      "slot_delta_mod15": 0,
+      "fiber_delta_mod60": 3
+    },
+    {
+      "form_index": 2,
+      "edge_index": 2,
+      "edge_role": "YZ",
+      "label": "reverse_partner",
+      "from_key": "0|10|5|2,17",
+      "to_key": "5|10|0|2,17",
+      "from_slot": 0,
+      "to_slot": 5,
+      "from_fiber": 5,
+      "to_fiber": 0,
+      "from_A": 10,
+      "to_A": 10,
+      "from_B": 0,
+      "to_B": 5,
+      "from_C": 5,
+      "to_C": 0,
+      "from_columns": [
+        2,
+        17
+      ],
+      "to_columns": [
+        2,
+        17
+      ],
+      "slot_delta_mod15": 5,
+      "fiber_delta_mod60": 55
+    },
+    {
+      "form_index": 2,
+      "edge_index": 3,
+      "edge_role": "ZT",
+      "label": "shared_B",
+      "from_key": "5|10|0|2,17",
+      "to_key": "5|12|2|8,18",
+      "from_slot": 5,
+      "to_slot": 5,
+      "from_fiber": 0,
+      "to_fiber": 2,
+      "from_A": 10,
+      "to_A": 12,
+      "from_B": 5,
+      "to_B": 5,
+      "from_C": 0,
+      "to_C": 2,
+      "from_columns": [
+        2,
+        17
+      ],
+      "to_columns": [
+        8,
+        18
+      ],
+      "slot_delta_mod15": 0,
+      "fiber_delta_mod60": 2
+    },
+    {
+      "form_index": 2,
+      "edge_index": 4,
+      "edge_role": "TI",
+      "label": "reverse_partner",
+      "from_key": "5|12|2|8,18",
+      "to_key": "2|12|5|8,18",
+      "from_slot": 5,
+      "to_slot": 2,
+      "from_fiber": 2,
+      "to_fiber": 5,
+      "from_A": 12,
+      "to_A": 12,
+      "from_B": 5,
+      "to_B": 2,
+      "from_C": 2,
+      "to_C": 5,
+      "from_columns": [
+        8,
+        18
+      ],
+      "to_columns": [
+        8,
+        18
+      ],
+      "slot_delta_mod15": 12,
+      "fiber_delta_mod60": 3
+    },
+    {
+      "form_index": 2,
+      "edge_index": 5,
+      "edge_role": "IW",
+      "label": "shared_B",
+      "from_key": "2|12|5|8,18",
+      "to_key": "2|1|0|0,4",
+      "from_slot": 2,
+      "to_slot": 2,
+      "from_fiber": 5,
+      "to_fiber": 0,
+      "from_A": 12,
+      "to_A": 1,
+      "from_B": 2,
+      "to_B": 2,
+      "from_C": 5,
+      "to_C": 0,
+      "from_columns": [
+        8,
+        18
+      ],
+      "to_columns": [
+        0,
+        4
+      ],
+      "slot_delta_mod15": 0,
+      "fiber_delta_mod60": 55
+    },
+    {
+      "form_index": 3,
+      "edge_index": 0,
+      "edge_role": "WX",
+      "label": "reverse_partner",
+      "from_key": "4|3|2|7,10",
+      "to_key": "2|3|4|7,10",
+      "from_slot": 4,
+      "to_slot": 2,
+      "from_fiber": 2,
+      "to_fiber": 4,
+      "from_A": 3,
+      "to_A": 3,
+      "from_B": 4,
+      "to_B": 2,
+      "from_C": 2,
+      "to_C": 4,
+      "from_columns": [
+        7,
+        10
+      ],
+      "to_columns": [
+        7,
+        10
+      ],
+      "slot_delta_mod15": 13,
+      "fiber_delta_mod60": 2
+    },
+    {
+      "form_index": 3,
+      "edge_index": 1,
+      "edge_role": "XY",
+      "label": "shared_B",
+      "from_key": "2|3|4|7,10",
+      "to_key": "2|12|5|8,18",
+      "from_slot": 2,
+      "to_slot": 2,
+      "from_fiber": 4,
+      "to_fiber": 5,
+      "from_A": 3,
+      "to_A": 12,
+      "from_B": 2,
+      "to_B": 2,
+      "from_C": 4,
+      "to_C": 5,
+      "from_columns": [
+        7,
+        10
+      ],
+      "to_columns": [
+        8,
+        18
+      ],
+      "slot_delta_mod15": 0,
+      "fiber_delta_mod60": 1
+    },
+    {
+      "form_index": 3,
+      "edge_index": 2,
+      "edge_role": "YZ",
+      "label": "reverse_partner",
+      "from_key": "2|12|5|8,18",
+      "to_key": "5|12|2|8,18",
+      "from_slot": 2,
+      "to_slot": 5,
+      "from_fiber": 5,
+      "to_fiber": 2,
+      "from_A": 12,
+      "to_A": 12,
+      "from_B": 2,
+      "to_B": 5,
+      "from_C": 5,
+      "to_C": 2,
+      "from_columns": [
+        8,
+        18
+      ],
+      "to_columns": [
+        8,
+        18
+      ],
+      "slot_delta_mod15": 3,
+      "fiber_delta_mod60": 57
+    },
+    {
+      "form_index": 3,
+      "edge_index": 3,
+      "edge_role": "ZT",
+      "label": "shared_B",
+      "from_key": "5|12|2|8,18",
+      "to_key": "5|10|4|13,17",
+      "from_slot": 5,
+      "to_slot": 5,
+      "from_fiber": 2,
+      "to_fiber": 4,
+      "from_A": 12,
+      "to_A": 10,
+      "from_B": 5,
+      "to_B": 5,
+      "from_C": 2,
+      "to_C": 4,
+      "from_columns": [
+        8,
+        18
+      ],
+      "to_columns": [
+        13,
+        17
+      ],
+      "slot_delta_mod15": 0,
+      "fiber_delta_mod60": 2
+    },
+    {
+      "form_index": 3,
+      "edge_index": 4,
+      "edge_role": "TI",
+      "label": "reverse_partner",
+      "from_key": "5|10|4|13,17",
+      "to_key": "4|10|5|13,17",
+      "from_slot": 5,
+      "to_slot": 4,
+      "from_fiber": 4,
+      "to_fiber": 5,
+      "from_A": 10,
+      "to_A": 10,
+      "from_B": 5,
+      "to_B": 4,
+      "from_C": 4,
+      "to_C": 5,
+      "from_columns": [
+        13,
+        17
+      ],
+      "to_columns": [
+        13,
+        17
+      ],
+      "slot_delta_mod15": 14,
+      "fiber_delta_mod60": 1
+    },
+    {
+      "form_index": 3,
+      "edge_index": 5,
+      "edge_role": "IW",
+      "label": "shared_B",
+      "from_key": "4|10|5|13,17",
+      "to_key": "4|3|2|7,10",
+      "from_slot": 4,
+      "to_slot": 4,
+      "from_fiber": 5,
+      "to_fiber": 2,
+      "from_A": 10,
+      "to_A": 3,
+      "from_B": 4,
+      "to_B": 4,
+      "from_C": 5,
+      "to_C": 2,
+      "from_columns": [
+        13,
+        17
+      ],
+      "to_columns": [
+        7,
+        10
+      ],
+      "slot_delta_mod15": 0,
+      "fiber_delta_mod60": 57
+    }
+  ],
+  "missing_endpoint": [],
+  "checks": [
+    {
+      "id": "bundle_loaded",
+      "status": true,
+      "detail": "g60_native_generator_input_bundle_built"
+    },
+    {
+      "id": "wxyzti_forms_loaded",
+      "status": true,
+      "detail": 4
+    },
+    {
+      "id": "edge_records_24",
+      "status": true,
+      "detail": 24
+    },
+    {
+      "id": "no_missing_endpoints",
+      "status": true,
+      "detail": []
+    },
+    {
+      "id": "label_split_12_12",
+      "status": true,
+      "detail": {
+        "reverse_partner": 12,
+        "shared_B": 12
+      }
+    },
+    {
+      "id": "overlay_loaded_classified",
+      "status": true,
+      "detail": true
+    },
+    {
+      "id": "candidate_family_nonempty",
+      "status": true,
+      "detail": [
+        "identity",
+        "minus_15_mod60",
+        "minus_30_mod60",
+        "old_g60_pair_involution_relabelled",
+        "old_hyperxi_a_relabelled",
+        "old_hyperxi_ab_relabelled",
+        "old_hyperxi_b_relabelled",
+        "old_hyperxi_ba_relabelled",
+        "plus_15_mod60",
+        "plus_30_mod60"
+      ]
+    },
+    {
+      "id": "no_gap_a_claim_made",
+      "status": true,
+      "detail": "search family only"
+    }
+  ],
+  "boundary": [
+    "This searches a first bounded family of simple native G60 maps.",
+    "Failure refutes only this tested family.",
+    "Success would identify a candidate generator family, not full Gap A closure.",
+    "This does not prove full G900."
+  ]
+}

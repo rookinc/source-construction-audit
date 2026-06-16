@@ -1,0 +1,171 @@
+{
+  "audit_id": "007",
+  "audit_pass": true,
+  "boundary": {
+    "answer_label_leakage_remains_open": true,
+    "candidate_not_theorem_yet": true,
+    "full_role_labeled_shared_B_universe_derived": false,
+    "gap_a_closure": false,
+    "label_column_independence": true,
+    "native_closure": false
+  },
+  "checks": {
+    "ambiguity_count": 0,
+    "ambiguity_count_is_0": true,
+    "answer_label_leakage_remains_open": true,
+    "broken_path_count": 0,
+    "broken_path_count_is_0": true,
+    "cycle_count": 4,
+    "cycle_count_is_4": true,
+    "cycle_sizes_are_6": true,
+    "forbidden_phrases_absent": true,
+    "form_index_used": false,
+    "gap_a_closure": false,
+    "input_004_pass": true,
+    "input_005_pass": true,
+    "input_006_pass": true,
+    "ledger_row_id_used": false,
+    "native_closure": false,
+    "phi_cycle_counts_are_one_each": true,
+    "phi_row_counts_are_six_each": true,
+    "removed_fields_absent_from_working_rows": true,
+    "required_phrases_present": true,
+    "role_order_ok_all": true,
+    "row_count": 24,
+    "row_count_is_24": true,
+    "working_field_count": 9,
+    "working_fields_equal_phi_fields": true
+  },
+  "cycles": [
+    {
+      "cycle_id": 0,
+      "phi_level": "edge",
+      "reason": "capture_count=0",
+      "role_order_ok": true,
+      "role_sequence": [
+        "WX",
+        "XY",
+        "YZ",
+        "ZT",
+        "TI",
+        "IW"
+      ],
+      "row_count": 6,
+      "transition_keys": [
+        "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":12,\"from_ABC\":[1,11,2],\"slot_delta_mod15\":0,\"to_ABC\":[7,11,14]}",
+        "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":51,\"from_ABC\":[1,2,11],\"slot_delta_mod15\":9,\"to_ABC\":[1,11,2]}",
+        "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":57,\"from_ABC\":[7,11,14],\"slot_delta_mod15\":3,\"to_ABC\":[7,14,11]}",
+        "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":51,\"from_ABC\":[7,14,11],\"slot_delta_mod15\":0,\"to_ABC\":[3,14,2]}",
+        "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":12,\"from_ABC\":[3,14,2],\"slot_delta_mod15\":3,\"to_ABC\":[3,2,14]}",
+        "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":57,\"from_ABC\":[3,2,14],\"slot_delta_mod15\":0,\"to_ABC\":[1,2,11]}"
+      ]
+    },
+    {
+      "cycle_id": 1,
+      "phi_level": "closed_face",
+      "reason": "capture_count=2 and TI.fiber_delta_mod60=3",
+      "role_order_ok": true,
+      "role_sequence": [
+        "WX",
+        "XY",
+        "YZ",
+        "ZT",
+        "TI",
+        "IW"
+      ],
+      "row_count": 6,
+      "transition_keys": [
+        "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":55,\"from_ABC\":[12,2,5],\"slot_delta_mod15\":0,\"to_ABC\":[1,2,0]}",
+        "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":3,\"from_ABC\":[12,5,2],\"slot_delta_mod15\":12,\"to_ABC\":[12,2,5]}",
+        "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":2,\"from_ABC\":[1,2,0],\"slot_delta_mod15\":13,\"to_ABC\":[1,0,2]}",
+        "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":3,\"from_ABC\":[1,0,2],\"slot_delta_mod15\":0,\"to_ABC\":[10,0,5]}",
+        "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":55,\"from_ABC\":[10,0,5],\"slot_delta_mod15\":5,\"to_ABC\":[10,5,0]}",
+        "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":2,\"from_ABC\":[10,5,0],\"slot_delta_mod15\":0,\"to_ABC\":[12,5,2]}"
+      ]
+    },
+    {
+      "cycle_id": 2,
+      "phi_level": "filled_cell",
+      "reason": "capture_count=2 and TI.fiber_delta_mod60=1",
+      "role_order_ok": true,
+      "role_sequence": [
+        "WX",
+        "XY",
+        "YZ",
+        "ZT",
+        "TI",
+        "IW"
+      ],
+      "row_count": 6,
+      "transition_keys": [
+        "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":57,\"from_ABC\":[10,4,5],\"slot_delta_mod15\":0,\"to_ABC\":[3,4,2]}",
+        "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":1,\"from_ABC\":[10,5,4],\"slot_delta_mod15\":14,\"to_ABC\":[10,4,5]}",
+        "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":2,\"from_ABC\":[3,4,2],\"slot_delta_mod15\":13,\"to_ABC\":[3,2,4]}",
+        "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":1,\"from_ABC\":[3,2,4],\"slot_delta_mod15\":0,\"to_ABC\":[12,2,5]}",
+        "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":57,\"from_ABC\":[12,2,5],\"slot_delta_mod15\":3,\"to_ABC\":[12,5,2]}",
+        "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":2,\"from_ABC\":[12,5,2],\"slot_delta_mod15\":0,\"to_ABC\":[10,5,4]}"
+      ]
+    },
+    {
+      "cycle_id": 3,
+      "phi_level": "hinge",
+      "reason": "capture_count=1",
+      "role_order_ok": true,
+      "role_sequence": [
+        "WX",
+        "XY",
+        "YZ",
+        "ZT",
+        "TI",
+        "IW"
+      ],
+      "row_count": 6,
+      "transition_keys": [
+        "{\"edge_role\":\"IW\",\"fiber_delta_mod60\":9,\"from_ABC\":[2,13,1],\"slot_delta_mod15\":0,\"to_ABC\":[9,13,10]}",
+        "{\"edge_role\":\"TI\",\"fiber_delta_mod60\":48,\"from_ABC\":[2,1,13],\"slot_delta_mod15\":12,\"to_ABC\":[2,13,1]}",
+        "{\"edge_role\":\"WX\",\"fiber_delta_mod60\":3,\"from_ABC\":[9,13,10],\"slot_delta_mod15\":12,\"to_ABC\":[9,10,13]}",
+        "{\"edge_role\":\"XY\",\"fiber_delta_mod60\":48,\"from_ABC\":[9,10,13],\"slot_delta_mod15\":0,\"to_ABC\":[0,10,1]}",
+        "{\"edge_role\":\"YZ\",\"fiber_delta_mod60\":9,\"from_ABC\":[0,10,1],\"slot_delta_mod15\":6,\"to_ABC\":[0,1,10]}",
+        "{\"edge_role\":\"ZT\",\"fiber_delta_mod60\":3,\"from_ABC\":[0,1,10],\"slot_delta_mod15\":0,\"to_ABC\":[2,1,13]}"
+      ]
+    }
+  ],
+  "forbidden_phrases_found": [],
+  "inputs": {
+    "directed_cycle_phi_004": "artifacts/json/source_construction_directed_cycle_phi_004.v1.json",
+    "phi_field_source_audit_006": "artifacts/json/source_construction_phi_field_source_audit_006.v1.json",
+    "phi_independence_005": "artifacts/json/source_construction_phi_independence_audit_005.v1.json",
+    "source_rows": "artifacts/csv/source_construction_ledger_inventory_002_rows.v1.csv"
+  },
+  "missing_required_phrases": [],
+  "phi_cycle_counts": {
+    "closed_face": 1,
+    "edge": 1,
+    "filled_cell": 1,
+    "hinge": 1
+  },
+  "phi_row_counts": {
+    "closed_face": 6,
+    "edge": 6,
+    "filled_cell": 6,
+    "hinge": 6
+  },
+  "removed_fields": [
+    "form_index",
+    "ledger_row_id"
+  ],
+  "statement": "Artifact 007 is a label removal audit. It recomputes phi after form_index removed from working rows and ledger_row_id removed from working rows. The computation compares source-side transition signatures only. answer-label leakage remains open because this supports label-column independence but is not native closure, not full role-labeled shared_B universe derivation, and not Gap A closure.",
+  "status": "source_construction_phi_label_removal_audit_recorded",
+  "verdict": "phi_survives_label_column_removal",
+  "working_fields": [
+    "edge_role",
+    "from_A",
+    "from_B",
+    "from_C",
+    "to_A",
+    "to_B",
+    "to_C",
+    "slot_delta_mod15",
+    "fiber_delta_mod60"
+  ]
+}

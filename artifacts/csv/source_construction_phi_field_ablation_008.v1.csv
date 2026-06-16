@@ -1,0 +1,17 @@
+name,kind,ok,missing_fields,ambiguity_count,broken_count,cycle_count,cycle_sizes,role_order_ok_all,row_phi_counts,cycle_phi_counts
+full_phi,baseline,True,,0,0,4,6|6|6|6,True,"{""closed_face"": 6, ""edge"": 6, ""filled_cell"": 6, ""hinge"": 6}","{""closed_face"": 1, ""edge"": 1, ""filled_cell"": 1, ""hinge"": 1}"
+drop_edge_role,single_field_drop,False,edge_role,1,24,0,,False,{},{}
+drop_from_A,single_field_drop,False,from_A,1,24,0,,False,{},{}
+drop_from_B,single_field_drop,False,from_B,1,24,0,,False,{},{}
+drop_from_C,single_field_drop,False,from_C,1,24,0,,False,{},{}
+drop_to_A,single_field_drop,False,to_A,24,24,0,,False,{},{}
+drop_to_B,single_field_drop,False,to_B,24,24,0,,False,{},{}
+drop_to_C,single_field_drop,False,to_C,24,24,0,,False,{},{}
+drop_slot_delta_mod15,single_field_drop,False,slot_delta_mod15,0,0,4,6|6|6|6,True,"{""unknown"": 24}","{""unknown"": 4}"
+drop_fiber_delta_mod60,single_field_drop,False,fiber_delta_mod60,0,0,4,6|6|6|6,True,"{""unknown"": 24}","{""unknown"": 4}"
+drop_from_ABC,field_group_drop,False,from_A|from_B|from_C,1,24,0,,False,{},{}
+drop_to_ABC,field_group_drop,False,to_A|to_B|to_C,24,24,0,,False,{},{}
+drop_all_ABC,field_group_drop,False,from_A|from_B|from_C|to_A|to_B|to_C,1,24,0,,False,{},{}
+drop_delta_pair,field_group_drop,False,slot_delta_mod15|fiber_delta_mod60,0,0,4,6|6|6|6,True,"{""unknown"": 24}","{""unknown"": 4}"
+disable_ti_discriminant,rule_ablation,False,,0,0,4,6|6|6|6,True,"{""edge"": 6, ""hinge"": 6, ""unknown"": 12}","{""edge"": 1, ""hinge"": 1, ""unknown"": 2}"
+disable_capture_count,rule_ablation,False,,0,0,4,6|6|6|6,True,"{""unknown"": 24}","{""unknown"": 4}"

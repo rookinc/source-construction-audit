@@ -1,0 +1,1543 @@
+{
+  "audit_id": "008",
+  "audit_pass": true,
+  "boundary": {
+    "answer_label_leakage_remains_open": true,
+    "candidate_not_theorem_yet": true,
+    "current_rule_family_only": true,
+    "full_role_labeled_shared_B_universe_derived": false,
+    "gap_a_closure": false,
+    "label_column_independence": true,
+    "native_closure": false
+  },
+  "checks": {
+    "ablation_count": 15,
+    "all_tested_ablations_fail": true,
+    "answer_label_leakage_remains_open": true,
+    "baseline_full_phi_pass": true,
+    "forbidden_phrases_absent": true,
+    "form_index_used": false,
+    "gap_a_closure": false,
+    "input_004_pass": true,
+    "input_005_pass": true,
+    "input_006_pass": true,
+    "input_007_pass": true,
+    "label_column_independence_remains_intact": true,
+    "ledger_row_id_used": false,
+    "native_closure": false,
+    "passing_ablation_count": 0,
+    "required_phrases_present": true,
+    "row_count": 24,
+    "row_count_is_24": true,
+    "test_count": 16
+  },
+  "forbidden_phrases_found": [],
+  "inputs": {
+    "directed_cycle_phi_004": "artifacts/json/source_construction_directed_cycle_phi_004.v1.json",
+    "label_removed_rows": "artifacts/csv/source_construction_phi_label_removed_rows_007.v1.csv",
+    "phi_field_source_audit_006": "artifacts/json/source_construction_phi_field_source_audit_006.v1.json",
+    "phi_independence_005": "artifacts/json/source_construction_phi_independence_audit_005.v1.json",
+    "phi_label_removal_audit_007": "artifacts/json/source_construction_phi_label_removal_audit_007.v1.json"
+  },
+  "load_bearing_failures": [
+    {
+      "failure_summary": {
+        "ambiguity_count": 1,
+        "broken_count": 24,
+        "cycle_count": 0,
+        "cycle_phi_counts": {},
+        "row_phi_counts": {}
+      },
+      "kind": "single_field_drop",
+      "missing_fields": [
+        "edge_role"
+      ],
+      "name": "drop_edge_role"
+    },
+    {
+      "failure_summary": {
+        "ambiguity_count": 1,
+        "broken_count": 24,
+        "cycle_count": 0,
+        "cycle_phi_counts": {},
+        "row_phi_counts": {}
+      },
+      "kind": "single_field_drop",
+      "missing_fields": [
+        "from_A"
+      ],
+      "name": "drop_from_A"
+    },
+    {
+      "failure_summary": {
+        "ambiguity_count": 1,
+        "broken_count": 24,
+        "cycle_count": 0,
+        "cycle_phi_counts": {},
+        "row_phi_counts": {}
+      },
+      "kind": "single_field_drop",
+      "missing_fields": [
+        "from_B"
+      ],
+      "name": "drop_from_B"
+    },
+    {
+      "failure_summary": {
+        "ambiguity_count": 1,
+        "broken_count": 24,
+        "cycle_count": 0,
+        "cycle_phi_counts": {},
+        "row_phi_counts": {}
+      },
+      "kind": "single_field_drop",
+      "missing_fields": [
+        "from_C"
+      ],
+      "name": "drop_from_C"
+    },
+    {
+      "failure_summary": {
+        "ambiguity_count": 24,
+        "broken_count": 24,
+        "cycle_count": 0,
+        "cycle_phi_counts": {},
+        "row_phi_counts": {}
+      },
+      "kind": "single_field_drop",
+      "missing_fields": [
+        "to_A"
+      ],
+      "name": "drop_to_A"
+    },
+    {
+      "failure_summary": {
+        "ambiguity_count": 24,
+        "broken_count": 24,
+        "cycle_count": 0,
+        "cycle_phi_counts": {},
+        "row_phi_counts": {}
+      },
+      "kind": "single_field_drop",
+      "missing_fields": [
+        "to_B"
+      ],
+      "name": "drop_to_B"
+    },
+    {
+      "failure_summary": {
+        "ambiguity_count": 24,
+        "broken_count": 24,
+        "cycle_count": 0,
+        "cycle_phi_counts": {},
+        "row_phi_counts": {}
+      },
+      "kind": "single_field_drop",
+      "missing_fields": [
+        "to_C"
+      ],
+      "name": "drop_to_C"
+    },
+    {
+      "failure_summary": {
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_phi_counts": {
+          "unknown": 4
+        },
+        "row_phi_counts": {
+          "unknown": 24
+        }
+      },
+      "kind": "single_field_drop",
+      "missing_fields": [
+        "slot_delta_mod15"
+      ],
+      "name": "drop_slot_delta_mod15"
+    },
+    {
+      "failure_summary": {
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_phi_counts": {
+          "unknown": 4
+        },
+        "row_phi_counts": {
+          "unknown": 24
+        }
+      },
+      "kind": "single_field_drop",
+      "missing_fields": [
+        "fiber_delta_mod60"
+      ],
+      "name": "drop_fiber_delta_mod60"
+    },
+    {
+      "failure_summary": {
+        "ambiguity_count": 1,
+        "broken_count": 24,
+        "cycle_count": 0,
+        "cycle_phi_counts": {},
+        "row_phi_counts": {}
+      },
+      "kind": "field_group_drop",
+      "missing_fields": [
+        "from_A",
+        "from_B",
+        "from_C"
+      ],
+      "name": "drop_from_ABC"
+    },
+    {
+      "failure_summary": {
+        "ambiguity_count": 24,
+        "broken_count": 24,
+        "cycle_count": 0,
+        "cycle_phi_counts": {},
+        "row_phi_counts": {}
+      },
+      "kind": "field_group_drop",
+      "missing_fields": [
+        "to_A",
+        "to_B",
+        "to_C"
+      ],
+      "name": "drop_to_ABC"
+    },
+    {
+      "failure_summary": {
+        "ambiguity_count": 1,
+        "broken_count": 24,
+        "cycle_count": 0,
+        "cycle_phi_counts": {},
+        "row_phi_counts": {}
+      },
+      "kind": "field_group_drop",
+      "missing_fields": [
+        "from_A",
+        "from_B",
+        "from_C",
+        "to_A",
+        "to_B",
+        "to_C"
+      ],
+      "name": "drop_all_ABC"
+    },
+    {
+      "failure_summary": {
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_phi_counts": {
+          "unknown": 4
+        },
+        "row_phi_counts": {
+          "unknown": 24
+        }
+      },
+      "kind": "field_group_drop",
+      "missing_fields": [
+        "slot_delta_mod15",
+        "fiber_delta_mod60"
+      ],
+      "name": "drop_delta_pair"
+    },
+    {
+      "failure_summary": {
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_phi_counts": {
+          "edge": 1,
+          "hinge": 1,
+          "unknown": 2
+        },
+        "row_phi_counts": {
+          "edge": 6,
+          "hinge": 6,
+          "unknown": 12
+        }
+      },
+      "kind": "rule_ablation",
+      "missing_fields": [],
+      "name": "disable_ti_discriminant"
+    },
+    {
+      "failure_summary": {
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_phi_counts": {
+          "unknown": 4
+        },
+        "row_phi_counts": {
+          "unknown": 24
+        }
+      },
+      "kind": "rule_ablation",
+      "missing_fields": [],
+      "name": "disable_capture_count"
+    }
+  ],
+  "missing_required_phrases": [],
+  "passing_ablations": [],
+  "statement": "Artifact 008 is a field ablation audit for source-construction phi. It tests load-bearing fields by removing one phi input or rule component at a time. The full source-construction phi passes, while each tested ablation fails in the current rule family. label-column independence remains intact. answer-label leakage remains open. This is not native closure, not full role-labeled shared_B universe derivation, and not Gap A closure.",
+  "status": "source_construction_phi_field_ablation_recorded",
+  "test_results": [
+    {
+      "ambiguities": [],
+      "ambiguity_count": 0,
+      "broken_count": 0,
+      "broken_paths": [],
+      "cycle_count": 4,
+      "cycle_phi_counts": {
+        "closed_face": 1,
+        "edge": 1,
+        "filled_cell": 1,
+        "hinge": 1
+      },
+      "cycle_sizes": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "cycles": [
+        {
+          "cycle_id": 0,
+          "phi_level": "edge",
+          "reason": "capture_count=0",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '7', '11', '14', '7', '14', '11', '3', '57')",
+            "('XY', '7', '14', '11', '3', '14', '2', '0', '51')",
+            "('YZ', '3', '14', '2', '3', '2', '14', '3', '12')",
+            "('ZT', '3', '2', '14', '1', '2', '11', '0', '57')",
+            "('TI', '1', '2', '11', '1', '11', '2', '9', '51')",
+            "('IW', '1', '11', '2', '7', '11', '14', '0', '12')"
+          ]
+        },
+        {
+          "cycle_id": 1,
+          "phi_level": "filled_cell",
+          "reason": "capture_count=2 and TI.fiber_delta_mod60=1",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '3', '4', '2', '3', '2', '4', '13', '2')",
+            "('XY', '3', '2', '4', '12', '2', '5', '0', '1')",
+            "('YZ', '12', '2', '5', '12', '5', '2', '3', '57')",
+            "('ZT', '12', '5', '2', '10', '5', '4', '0', '2')",
+            "('TI', '10', '5', '4', '10', '4', '5', '14', '1')",
+            "('IW', '10', '4', '5', '3', '4', '2', '0', '57')"
+          ]
+        },
+        {
+          "cycle_id": 2,
+          "phi_level": "closed_face",
+          "reason": "capture_count=2 and TI.fiber_delta_mod60=3",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '1', '2', '0', '1', '0', '2', '13', '2')",
+            "('XY', '1', '0', '2', '10', '0', '5', '0', '3')",
+            "('YZ', '10', '0', '5', '10', '5', '0', '5', '55')",
+            "('ZT', '10', '5', '0', '12', '5', '2', '0', '2')",
+            "('TI', '12', '5', '2', '12', '2', '5', '12', '3')",
+            "('IW', '12', '2', '5', '1', '2', '0', '0', '55')"
+          ]
+        },
+        {
+          "cycle_id": 3,
+          "phi_level": "hinge",
+          "reason": "capture_count=1",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '9', '13', '10', '9', '10', '13', '12', '3')",
+            "('XY', '9', '10', '13', '0', '10', '1', '0', '48')",
+            "('YZ', '0', '10', '1', '0', '1', '10', '6', '9')",
+            "('ZT', '0', '1', '10', '2', '1', '13', '0', '3')",
+            "('TI', '2', '1', '13', '2', '13', '1', '12', '48')",
+            "('IW', '2', '13', '1', '9', '13', '10', '0', '9')"
+          ]
+        }
+      ],
+      "disable_capture_count": false,
+      "disable_ti_discriminant": false,
+      "kind": "baseline",
+      "missing_fields": [],
+      "name": "full_phi",
+      "ok": true,
+      "role_order_ok_all": true,
+      "row_phi_counts": {
+        "closed_face": 6,
+        "edge": 6,
+        "filled_cell": 6,
+        "hinge": 6
+      }
+    },
+    {
+      "ambiguities": [
+        {
+          "reason": "edge_role missing; role-successor relation unavailable"
+        }
+      ],
+      "ambiguity_count": 1,
+      "broken_count": 24,
+      "broken_paths": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "cycle_count": 0,
+      "cycle_phi_counts": {},
+      "cycle_sizes": [],
+      "cycles": [],
+      "disable_capture_count": false,
+      "disable_ti_discriminant": false,
+      "kind": "single_field_drop",
+      "missing_fields": [
+        "edge_role"
+      ],
+      "name": "drop_edge_role",
+      "ok": false,
+      "role_order_ok_all": false,
+      "row_phi_counts": {}
+    },
+    {
+      "ambiguities": [
+        {
+          "reason": "from_ABC or edge_role unavailable"
+        }
+      ],
+      "ambiguity_count": 1,
+      "broken_count": 24,
+      "broken_paths": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "cycle_count": 0,
+      "cycle_phi_counts": {},
+      "cycle_sizes": [],
+      "cycles": [],
+      "disable_capture_count": false,
+      "disable_ti_discriminant": false,
+      "kind": "single_field_drop",
+      "missing_fields": [
+        "from_A"
+      ],
+      "name": "drop_from_A",
+      "ok": false,
+      "role_order_ok_all": false,
+      "row_phi_counts": {}
+    },
+    {
+      "ambiguities": [
+        {
+          "reason": "from_ABC or edge_role unavailable"
+        }
+      ],
+      "ambiguity_count": 1,
+      "broken_count": 24,
+      "broken_paths": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "cycle_count": 0,
+      "cycle_phi_counts": {},
+      "cycle_sizes": [],
+      "cycles": [],
+      "disable_capture_count": false,
+      "disable_ti_discriminant": false,
+      "kind": "single_field_drop",
+      "missing_fields": [
+        "from_B"
+      ],
+      "name": "drop_from_B",
+      "ok": false,
+      "role_order_ok_all": false,
+      "row_phi_counts": {}
+    },
+    {
+      "ambiguities": [
+        {
+          "reason": "from_ABC or edge_role unavailable"
+        }
+      ],
+      "ambiguity_count": 1,
+      "broken_count": 24,
+      "broken_paths": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "cycle_count": 0,
+      "cycle_phi_counts": {},
+      "cycle_sizes": [],
+      "cycles": [],
+      "disable_capture_count": false,
+      "disable_ti_discriminant": false,
+      "kind": "single_field_drop",
+      "missing_fields": [
+        "from_C"
+      ],
+      "name": "drop_from_C",
+      "ok": false,
+      "role_order_ok_all": false,
+      "row_phi_counts": {}
+    },
+    {
+      "ambiguities": [
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 0
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 1
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 2
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 3
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 4
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 5
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 6
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 7
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 8
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 9
+        }
+      ],
+      "ambiguity_count": 24,
+      "broken_count": 24,
+      "broken_paths": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "cycle_count": 0,
+      "cycle_phi_counts": {},
+      "cycle_sizes": [],
+      "cycles": [],
+      "disable_capture_count": false,
+      "disable_ti_discriminant": false,
+      "kind": "single_field_drop",
+      "missing_fields": [
+        "to_A"
+      ],
+      "name": "drop_to_A",
+      "ok": false,
+      "role_order_ok_all": false,
+      "row_phi_counts": {}
+    },
+    {
+      "ambiguities": [
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 0
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 1
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 2
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 3
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 4
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 5
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 6
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 7
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 8
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 9
+        }
+      ],
+      "ambiguity_count": 24,
+      "broken_count": 24,
+      "broken_paths": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "cycle_count": 0,
+      "cycle_phi_counts": {},
+      "cycle_sizes": [],
+      "cycles": [],
+      "disable_capture_count": false,
+      "disable_ti_discriminant": false,
+      "kind": "single_field_drop",
+      "missing_fields": [
+        "to_B"
+      ],
+      "name": "drop_to_B",
+      "ok": false,
+      "role_order_ok_all": false,
+      "row_phi_counts": {}
+    },
+    {
+      "ambiguities": [
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 0
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 1
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 2
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 3
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 4
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 5
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 6
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 7
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 8
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 9
+        }
+      ],
+      "ambiguity_count": 24,
+      "broken_count": 24,
+      "broken_paths": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "cycle_count": 0,
+      "cycle_phi_counts": {},
+      "cycle_sizes": [],
+      "cycles": [],
+      "disable_capture_count": false,
+      "disable_ti_discriminant": false,
+      "kind": "single_field_drop",
+      "missing_fields": [
+        "to_C"
+      ],
+      "name": "drop_to_C",
+      "ok": false,
+      "role_order_ok_all": false,
+      "row_phi_counts": {}
+    },
+    {
+      "ambiguities": [],
+      "ambiguity_count": 0,
+      "broken_count": 0,
+      "broken_paths": [],
+      "cycle_count": 4,
+      "cycle_phi_counts": {
+        "unknown": 4
+      },
+      "cycle_sizes": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "cycles": [
+        {
+          "cycle_id": 0,
+          "phi_level": "unknown",
+          "reason": "capture unavailable",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '7', '11', '14', '7', '14', '11', '3', '57')",
+            "('XY', '7', '14', '11', '3', '14', '2', '0', '51')",
+            "('YZ', '3', '14', '2', '3', '2', '14', '3', '12')",
+            "('ZT', '3', '2', '14', '1', '2', '11', '0', '57')",
+            "('TI', '1', '2', '11', '1', '11', '2', '9', '51')",
+            "('IW', '1', '11', '2', '7', '11', '14', '0', '12')"
+          ]
+        },
+        {
+          "cycle_id": 1,
+          "phi_level": "unknown",
+          "reason": "capture unavailable",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '3', '4', '2', '3', '2', '4', '13', '2')",
+            "('XY', '3', '2', '4', '12', '2', '5', '0', '1')",
+            "('YZ', '12', '2', '5', '12', '5', '2', '3', '57')",
+            "('ZT', '12', '5', '2', '10', '5', '4', '0', '2')",
+            "('TI', '10', '5', '4', '10', '4', '5', '14', '1')",
+            "('IW', '10', '4', '5', '3', '4', '2', '0', '57')"
+          ]
+        },
+        {
+          "cycle_id": 2,
+          "phi_level": "unknown",
+          "reason": "capture unavailable",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '1', '2', '0', '1', '0', '2', '13', '2')",
+            "('XY', '1', '0', '2', '10', '0', '5', '0', '3')",
+            "('YZ', '10', '0', '5', '10', '5', '0', '5', '55')",
+            "('ZT', '10', '5', '0', '12', '5', '2', '0', '2')",
+            "('TI', '12', '5', '2', '12', '2', '5', '12', '3')",
+            "('IW', '12', '2', '5', '1', '2', '0', '0', '55')"
+          ]
+        },
+        {
+          "cycle_id": 3,
+          "phi_level": "unknown",
+          "reason": "capture unavailable",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '9', '13', '10', '9', '10', '13', '12', '3')",
+            "('XY', '9', '10', '13', '0', '10', '1', '0', '48')",
+            "('YZ', '0', '10', '1', '0', '1', '10', '6', '9')",
+            "('ZT', '0', '1', '10', '2', '1', '13', '0', '3')",
+            "('TI', '2', '1', '13', '2', '13', '1', '12', '48')",
+            "('IW', '2', '13', '1', '9', '13', '10', '0', '9')"
+          ]
+        }
+      ],
+      "disable_capture_count": false,
+      "disable_ti_discriminant": false,
+      "kind": "single_field_drop",
+      "missing_fields": [
+        "slot_delta_mod15"
+      ],
+      "name": "drop_slot_delta_mod15",
+      "ok": false,
+      "role_order_ok_all": true,
+      "row_phi_counts": {
+        "unknown": 24
+      }
+    },
+    {
+      "ambiguities": [],
+      "ambiguity_count": 0,
+      "broken_count": 0,
+      "broken_paths": [],
+      "cycle_count": 4,
+      "cycle_phi_counts": {
+        "unknown": 4
+      },
+      "cycle_sizes": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "cycles": [
+        {
+          "cycle_id": 0,
+          "phi_level": "unknown",
+          "reason": "capture unavailable",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '7', '11', '14', '7', '14', '11', '3', '57')",
+            "('XY', '7', '14', '11', '3', '14', '2', '0', '51')",
+            "('YZ', '3', '14', '2', '3', '2', '14', '3', '12')",
+            "('ZT', '3', '2', '14', '1', '2', '11', '0', '57')",
+            "('TI', '1', '2', '11', '1', '11', '2', '9', '51')",
+            "('IW', '1', '11', '2', '7', '11', '14', '0', '12')"
+          ]
+        },
+        {
+          "cycle_id": 1,
+          "phi_level": "unknown",
+          "reason": "capture unavailable",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '3', '4', '2', '3', '2', '4', '13', '2')",
+            "('XY', '3', '2', '4', '12', '2', '5', '0', '1')",
+            "('YZ', '12', '2', '5', '12', '5', '2', '3', '57')",
+            "('ZT', '12', '5', '2', '10', '5', '4', '0', '2')",
+            "('TI', '10', '5', '4', '10', '4', '5', '14', '1')",
+            "('IW', '10', '4', '5', '3', '4', '2', '0', '57')"
+          ]
+        },
+        {
+          "cycle_id": 2,
+          "phi_level": "unknown",
+          "reason": "capture unavailable",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '1', '2', '0', '1', '0', '2', '13', '2')",
+            "('XY', '1', '0', '2', '10', '0', '5', '0', '3')",
+            "('YZ', '10', '0', '5', '10', '5', '0', '5', '55')",
+            "('ZT', '10', '5', '0', '12', '5', '2', '0', '2')",
+            "('TI', '12', '5', '2', '12', '2', '5', '12', '3')",
+            "('IW', '12', '2', '5', '1', '2', '0', '0', '55')"
+          ]
+        },
+        {
+          "cycle_id": 3,
+          "phi_level": "unknown",
+          "reason": "capture unavailable",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '9', '13', '10', '9', '10', '13', '12', '3')",
+            "('XY', '9', '10', '13', '0', '10', '1', '0', '48')",
+            "('YZ', '0', '10', '1', '0', '1', '10', '6', '9')",
+            "('ZT', '0', '1', '10', '2', '1', '13', '0', '3')",
+            "('TI', '2', '1', '13', '2', '13', '1', '12', '48')",
+            "('IW', '2', '13', '1', '9', '13', '10', '0', '9')"
+          ]
+        }
+      ],
+      "disable_capture_count": false,
+      "disable_ti_discriminant": false,
+      "kind": "single_field_drop",
+      "missing_fields": [
+        "fiber_delta_mod60"
+      ],
+      "name": "drop_fiber_delta_mod60",
+      "ok": false,
+      "role_order_ok_all": true,
+      "row_phi_counts": {
+        "unknown": 24
+      }
+    },
+    {
+      "ambiguities": [
+        {
+          "reason": "from_ABC or edge_role unavailable"
+        }
+      ],
+      "ambiguity_count": 1,
+      "broken_count": 24,
+      "broken_paths": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "cycle_count": 0,
+      "cycle_phi_counts": {},
+      "cycle_sizes": [],
+      "cycles": [],
+      "disable_capture_count": false,
+      "disable_ti_discriminant": false,
+      "kind": "field_group_drop",
+      "missing_fields": [
+        "from_A",
+        "from_B",
+        "from_C"
+      ],
+      "name": "drop_from_ABC",
+      "ok": false,
+      "role_order_ok_all": false,
+      "row_phi_counts": {}
+    },
+    {
+      "ambiguities": [
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 0
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 1
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 2
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 3
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 4
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 5
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 6
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 7
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 8
+        },
+        {
+          "reason": "to_ABC or role successor unavailable",
+          "row_index": 9
+        }
+      ],
+      "ambiguity_count": 24,
+      "broken_count": 24,
+      "broken_paths": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "cycle_count": 0,
+      "cycle_phi_counts": {},
+      "cycle_sizes": [],
+      "cycles": [],
+      "disable_capture_count": false,
+      "disable_ti_discriminant": false,
+      "kind": "field_group_drop",
+      "missing_fields": [
+        "to_A",
+        "to_B",
+        "to_C"
+      ],
+      "name": "drop_to_ABC",
+      "ok": false,
+      "role_order_ok_all": false,
+      "row_phi_counts": {}
+    },
+    {
+      "ambiguities": [
+        {
+          "reason": "from_ABC or edge_role unavailable"
+        }
+      ],
+      "ambiguity_count": 1,
+      "broken_count": 24,
+      "broken_paths": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "cycle_count": 0,
+      "cycle_phi_counts": {},
+      "cycle_sizes": [],
+      "cycles": [],
+      "disable_capture_count": false,
+      "disable_ti_discriminant": false,
+      "kind": "field_group_drop",
+      "missing_fields": [
+        "from_A",
+        "from_B",
+        "from_C",
+        "to_A",
+        "to_B",
+        "to_C"
+      ],
+      "name": "drop_all_ABC",
+      "ok": false,
+      "role_order_ok_all": false,
+      "row_phi_counts": {}
+    },
+    {
+      "ambiguities": [],
+      "ambiguity_count": 0,
+      "broken_count": 0,
+      "broken_paths": [],
+      "cycle_count": 4,
+      "cycle_phi_counts": {
+        "unknown": 4
+      },
+      "cycle_sizes": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "cycles": [
+        {
+          "cycle_id": 0,
+          "phi_level": "unknown",
+          "reason": "capture unavailable",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '7', '11', '14', '7', '14', '11', '3', '57')",
+            "('XY', '7', '14', '11', '3', '14', '2', '0', '51')",
+            "('YZ', '3', '14', '2', '3', '2', '14', '3', '12')",
+            "('ZT', '3', '2', '14', '1', '2', '11', '0', '57')",
+            "('TI', '1', '2', '11', '1', '11', '2', '9', '51')",
+            "('IW', '1', '11', '2', '7', '11', '14', '0', '12')"
+          ]
+        },
+        {
+          "cycle_id": 1,
+          "phi_level": "unknown",
+          "reason": "capture unavailable",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '3', '4', '2', '3', '2', '4', '13', '2')",
+            "('XY', '3', '2', '4', '12', '2', '5', '0', '1')",
+            "('YZ', '12', '2', '5', '12', '5', '2', '3', '57')",
+            "('ZT', '12', '5', '2', '10', '5', '4', '0', '2')",
+            "('TI', '10', '5', '4', '10', '4', '5', '14', '1')",
+            "('IW', '10', '4', '5', '3', '4', '2', '0', '57')"
+          ]
+        },
+        {
+          "cycle_id": 2,
+          "phi_level": "unknown",
+          "reason": "capture unavailable",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '1', '2', '0', '1', '0', '2', '13', '2')",
+            "('XY', '1', '0', '2', '10', '0', '5', '0', '3')",
+            "('YZ', '10', '0', '5', '10', '5', '0', '5', '55')",
+            "('ZT', '10', '5', '0', '12', '5', '2', '0', '2')",
+            "('TI', '12', '5', '2', '12', '2', '5', '12', '3')",
+            "('IW', '12', '2', '5', '1', '2', '0', '0', '55')"
+          ]
+        },
+        {
+          "cycle_id": 3,
+          "phi_level": "unknown",
+          "reason": "capture unavailable",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '9', '13', '10', '9', '10', '13', '12', '3')",
+            "('XY', '9', '10', '13', '0', '10', '1', '0', '48')",
+            "('YZ', '0', '10', '1', '0', '1', '10', '6', '9')",
+            "('ZT', '0', '1', '10', '2', '1', '13', '0', '3')",
+            "('TI', '2', '1', '13', '2', '13', '1', '12', '48')",
+            "('IW', '2', '13', '1', '9', '13', '10', '0', '9')"
+          ]
+        }
+      ],
+      "disable_capture_count": false,
+      "disable_ti_discriminant": false,
+      "kind": "field_group_drop",
+      "missing_fields": [
+        "slot_delta_mod15",
+        "fiber_delta_mod60"
+      ],
+      "name": "drop_delta_pair",
+      "ok": false,
+      "role_order_ok_all": true,
+      "row_phi_counts": {
+        "unknown": 24
+      }
+    },
+    {
+      "ambiguities": [],
+      "ambiguity_count": 0,
+      "broken_count": 0,
+      "broken_paths": [],
+      "cycle_count": 4,
+      "cycle_phi_counts": {
+        "edge": 1,
+        "hinge": 1,
+        "unknown": 2
+      },
+      "cycle_sizes": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "cycles": [
+        {
+          "cycle_id": 0,
+          "phi_level": "edge",
+          "reason": "capture_count=0",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '7', '11', '14', '7', '14', '11', '3', '57')",
+            "('XY', '7', '14', '11', '3', '14', '2', '0', '51')",
+            "('YZ', '3', '14', '2', '3', '2', '14', '3', '12')",
+            "('ZT', '3', '2', '14', '1', '2', '11', '0', '57')",
+            "('TI', '1', '2', '11', '1', '11', '2', '9', '51')",
+            "('IW', '1', '11', '2', '7', '11', '14', '0', '12')"
+          ]
+        },
+        {
+          "cycle_id": 1,
+          "phi_level": "unknown",
+          "reason": "two-capture discriminant unavailable or unmatched",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '3', '4', '2', '3', '2', '4', '13', '2')",
+            "('XY', '3', '2', '4', '12', '2', '5', '0', '1')",
+            "('YZ', '12', '2', '5', '12', '5', '2', '3', '57')",
+            "('ZT', '12', '5', '2', '10', '5', '4', '0', '2')",
+            "('TI', '10', '5', '4', '10', '4', '5', '14', '1')",
+            "('IW', '10', '4', '5', '3', '4', '2', '0', '57')"
+          ]
+        },
+        {
+          "cycle_id": 2,
+          "phi_level": "unknown",
+          "reason": "two-capture discriminant unavailable or unmatched",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '1', '2', '0', '1', '0', '2', '13', '2')",
+            "('XY', '1', '0', '2', '10', '0', '5', '0', '3')",
+            "('YZ', '10', '0', '5', '10', '5', '0', '5', '55')",
+            "('ZT', '10', '5', '0', '12', '5', '2', '0', '2')",
+            "('TI', '12', '5', '2', '12', '2', '5', '12', '3')",
+            "('IW', '12', '2', '5', '1', '2', '0', '0', '55')"
+          ]
+        },
+        {
+          "cycle_id": 3,
+          "phi_level": "hinge",
+          "reason": "capture_count=1",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '9', '13', '10', '9', '10', '13', '12', '3')",
+            "('XY', '9', '10', '13', '0', '10', '1', '0', '48')",
+            "('YZ', '0', '10', '1', '0', '1', '10', '6', '9')",
+            "('ZT', '0', '1', '10', '2', '1', '13', '0', '3')",
+            "('TI', '2', '1', '13', '2', '13', '1', '12', '48')",
+            "('IW', '2', '13', '1', '9', '13', '10', '0', '9')"
+          ]
+        }
+      ],
+      "disable_capture_count": false,
+      "disable_ti_discriminant": true,
+      "kind": "rule_ablation",
+      "missing_fields": [],
+      "name": "disable_ti_discriminant",
+      "ok": false,
+      "role_order_ok_all": true,
+      "row_phi_counts": {
+        "edge": 6,
+        "hinge": 6,
+        "unknown": 12
+      }
+    },
+    {
+      "ambiguities": [],
+      "ambiguity_count": 0,
+      "broken_count": 0,
+      "broken_paths": [],
+      "cycle_count": 4,
+      "cycle_phi_counts": {
+        "unknown": 4
+      },
+      "cycle_sizes": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "cycles": [
+        {
+          "cycle_id": 0,
+          "phi_level": "unknown",
+          "reason": "capture_count disabled",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '7', '11', '14', '7', '14', '11', '3', '57')",
+            "('XY', '7', '14', '11', '3', '14', '2', '0', '51')",
+            "('YZ', '3', '14', '2', '3', '2', '14', '3', '12')",
+            "('ZT', '3', '2', '14', '1', '2', '11', '0', '57')",
+            "('TI', '1', '2', '11', '1', '11', '2', '9', '51')",
+            "('IW', '1', '11', '2', '7', '11', '14', '0', '12')"
+          ]
+        },
+        {
+          "cycle_id": 1,
+          "phi_level": "unknown",
+          "reason": "capture_count disabled",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '3', '4', '2', '3', '2', '4', '13', '2')",
+            "('XY', '3', '2', '4', '12', '2', '5', '0', '1')",
+            "('YZ', '12', '2', '5', '12', '5', '2', '3', '57')",
+            "('ZT', '12', '5', '2', '10', '5', '4', '0', '2')",
+            "('TI', '10', '5', '4', '10', '4', '5', '14', '1')",
+            "('IW', '10', '4', '5', '3', '4', '2', '0', '57')"
+          ]
+        },
+        {
+          "cycle_id": 2,
+          "phi_level": "unknown",
+          "reason": "capture_count disabled",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '1', '2', '0', '1', '0', '2', '13', '2')",
+            "('XY', '1', '0', '2', '10', '0', '5', '0', '3')",
+            "('YZ', '10', '0', '5', '10', '5', '0', '5', '55')",
+            "('ZT', '10', '5', '0', '12', '5', '2', '0', '2')",
+            "('TI', '12', '5', '2', '12', '2', '5', '12', '3')",
+            "('IW', '12', '2', '5', '1', '2', '0', '0', '55')"
+          ]
+        },
+        {
+          "cycle_id": 3,
+          "phi_level": "unknown",
+          "reason": "capture_count disabled",
+          "role_order_ok": true,
+          "row_count": 6,
+          "transition_keys": [
+            "('WX', '9', '13', '10', '9', '10', '13', '12', '3')",
+            "('XY', '9', '10', '13', '0', '10', '1', '0', '48')",
+            "('YZ', '0', '10', '1', '0', '1', '10', '6', '9')",
+            "('ZT', '0', '1', '10', '2', '1', '13', '0', '3')",
+            "('TI', '2', '1', '13', '2', '13', '1', '12', '48')",
+            "('IW', '2', '13', '1', '9', '13', '10', '0', '9')"
+          ]
+        }
+      ],
+      "disable_capture_count": true,
+      "disable_ti_discriminant": false,
+      "kind": "rule_ablation",
+      "missing_fields": [],
+      "name": "disable_capture_count",
+      "ok": false,
+      "role_order_ok_all": true,
+      "row_phi_counts": {
+        "unknown": 24
+      }
+    }
+  ],
+  "verdict": "tested_phi_inputs_are_load_bearing"
+}

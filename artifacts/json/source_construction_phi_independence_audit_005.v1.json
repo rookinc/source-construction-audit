@@ -1,0 +1,475 @@
+{
+  "audit_id": "005",
+  "audit_pass": true,
+  "baseline_cycle_sets": [
+    {
+      "ledger_row_ids": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "phi_level": "closed_face"
+    },
+    {
+      "ledger_row_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "phi_level": "edge"
+    },
+    {
+      "ledger_row_ids": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "phi_level": "filled_cell"
+    },
+    {
+      "ledger_row_ids": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "phi_level": "hinge"
+    }
+  ],
+  "baseline_phi_by_ledger_row_id": {
+    "0": "edge",
+    "1": "edge",
+    "10": "hinge",
+    "11": "hinge",
+    "12": "closed_face",
+    "13": "closed_face",
+    "14": "closed_face",
+    "15": "closed_face",
+    "16": "closed_face",
+    "17": "closed_face",
+    "18": "filled_cell",
+    "19": "filled_cell",
+    "2": "edge",
+    "20": "filled_cell",
+    "21": "filled_cell",
+    "22": "filled_cell",
+    "23": "filled_cell",
+    "3": "edge",
+    "4": "edge",
+    "5": "edge",
+    "6": "hinge",
+    "7": "hinge",
+    "8": "hinge",
+    "9": "hinge"
+  },
+  "boundary": {
+    "answer_label_leakage_remains_open": true,
+    "candidate_not_theorem_yet": true,
+    "full_role_labeled_shared_B_universe_derived": false,
+    "gap_a_closure": false,
+    "native_closure": false
+  },
+  "checks": {
+    "all_permutations_ok": true,
+    "answer_label_leakage_remains_open": true,
+    "baseline_cycle_count": 4,
+    "baseline_cycle_count_is_4": true,
+    "baseline_phi_has_24_rows": true,
+    "forbidden_phrases_absent": true,
+    "form_index_used_only_for_evaluation": true,
+    "gap_a_closure": false,
+    "input_004_pass": true,
+    "native_closure": false,
+    "permutation_count": 26,
+    "required_phrases_present": true,
+    "row_count": 24,
+    "row_count_is_24": true,
+    "row_order_used_for_phi": false
+  },
+  "forbidden_phrases_found": [],
+  "inputs": {
+    "directed_cycle_phi_004": "artifacts/json/source_construction_directed_cycle_phi_004.v1.json",
+    "rows_csv": "artifacts/csv/source_construction_ledger_inventory_002_rows.v1.csv"
+  },
+  "missing_required_phrases": [],
+  "permutation_results": [
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "original"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "reverse"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "sort_by_role"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "sort_by_fiber"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "sort_by_from_C"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "sort_by_to_C"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_0"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_1"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_2"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_3"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_4"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_5"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_6"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_7"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_8"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_9"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_10"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_11"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_12"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_13"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_14"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_15"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_16"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_17"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_18"
+    },
+    {
+      "checks": {
+        "all_rows_match_form_index_for_evaluation_only": true,
+        "ambiguity_count": 0,
+        "broken_count": 0,
+        "cycle_count": 4,
+        "cycle_sets_match_baseline": true,
+        "cycle_sizes_are_6": true,
+        "phi_map_matches_baseline": true,
+        "role_order_ok_all": true
+      },
+      "ok": true,
+      "permutation": "shuffle_seed_19"
+    }
+  ],
+  "statement": "Artifact 005 is a phi independence audit. It verifies that the directed role-successor phi survives when row order shuffled. The computation uses native transition continuity and role successor order, while form_index is used only for evaluation. answer-label leakage remains open. This is not native closure, not full role-labeled shared_B universe derivation, and not Gap A closure.",
+  "status": "source_construction_phi_independence_audit_recorded",
+  "verdict": "phi_row_order_independence_passed"
+}

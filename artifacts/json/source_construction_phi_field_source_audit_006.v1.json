@@ -1,0 +1,168 @@
+{
+  "audit_id": "006",
+  "audit_pass": true,
+  "boundary": {
+    "answer_label_leakage_remains_open": true,
+    "candidate_not_theorem_yet": true,
+    "field_classification_only": true,
+    "full_role_labeled_shared_B_universe_derived": false,
+    "gap_a_closure": false,
+    "native_closure": false
+  },
+  "checks": {
+    "all_phi_fields_allowed": true,
+    "all_phi_fields_present": true,
+    "all_phi_fields_source_side_ok": true,
+    "answer_label_leakage_remains_open": true,
+    "directed_cycle_phi_004_pass": true,
+    "evaluation_field_count": 2,
+    "evaluation_fields_blocked_or_order_risk": true,
+    "evaluation_fields_not_used_for_phi": true,
+    "field_inventory_exists": true,
+    "forbidden_phrases_absent": true,
+    "form_index_used_only_for_evaluation": true,
+    "gap_a_closure": false,
+    "ledger_002_pass": true,
+    "missing_phi_field_count": 0,
+    "native_closure": false,
+    "no_phi_field_has_leakage_risk": true,
+    "phi_field_count": 9,
+    "phi_independence_005_pass": true,
+    "required_phrases_present": true,
+    "row_order_used_for_phi": false
+  },
+  "evaluation_fields": [
+    {
+      "classification": "evaluation_or_label_risk",
+      "evaluation_only_ok": true,
+      "field": "form_index",
+      "present_in_ledger": true,
+      "reason": "blocked/evaluation field is not used by phi",
+      "used_for_phi": false
+    },
+    {
+      "classification": "order_leakage_risk",
+      "evaluation_only_ok": true,
+      "field": "ledger_row_id",
+      "present_in_ledger": false,
+      "reason": "ledger_row_id is an exported row id and is not used by phi",
+      "used_for_phi": false
+    }
+  ],
+  "forbidden_phrases_found": [],
+  "inputs": {
+    "directed_cycle_phi_004": "artifacts/json/source_construction_directed_cycle_phi_004.v1.json",
+    "field_inventory_csv": "artifacts/csv/source_construction_ledger_inventory_002_fields.v1.csv",
+    "ledger_002": "artifacts/json/source_construction_ledger_inventory_002.v1.json",
+    "phi_independence_005": "artifacts/json/source_construction_phi_independence_audit_005.v1.json"
+  },
+  "missing_required_phrases": [],
+  "phi_field_class_counts": {
+    "native_delta_or_transition": 2,
+    "source_provenance_candidate": 7
+  },
+  "phi_fields": [
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "from_A",
+      "leakage_risk": false,
+      "present_count": 24,
+      "present_in_ledger": true,
+      "reason": "accepted source-side phi field",
+      "source_side_ok": true,
+      "unique_count": 8
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "from_B",
+      "leakage_risk": false,
+      "present_count": 24,
+      "present_in_ledger": true,
+      "reason": "accepted source-side phi field",
+      "source_side_ok": true,
+      "unique_count": 9
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "from_C",
+      "leakage_risk": false,
+      "present_count": 24,
+      "present_in_ledger": true,
+      "reason": "accepted source-side phi field",
+      "source_side_ok": true,
+      "unique_count": 9
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "to_A",
+      "leakage_risk": false,
+      "present_count": 24,
+      "present_in_ledger": true,
+      "reason": "accepted source-side phi field",
+      "source_side_ok": true,
+      "unique_count": 8
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "to_B",
+      "leakage_risk": false,
+      "present_count": 24,
+      "present_in_ledger": true,
+      "reason": "accepted source-side phi field",
+      "source_side_ok": true,
+      "unique_count": 9
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "to_C",
+      "leakage_risk": false,
+      "present_count": 24,
+      "present_in_ledger": true,
+      "reason": "accepted source-side phi field",
+      "source_side_ok": true,
+      "unique_count": 9
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "source_provenance_candidate",
+      "field": "edge_role",
+      "leakage_risk": false,
+      "present_count": 24,
+      "present_in_ledger": true,
+      "reason": "accepted source-side phi field",
+      "source_side_ok": true,
+      "unique_count": 6
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "native_delta_or_transition",
+      "field": "slot_delta_mod15",
+      "leakage_risk": false,
+      "present_count": 24,
+      "present_in_ledger": true,
+      "reason": "accepted source-side phi field",
+      "source_side_ok": true,
+      "unique_count": 8
+    },
+    {
+      "allowed_for_phi": true,
+      "classification": "native_delta_or_transition",
+      "field": "fiber_delta_mod60",
+      "leakage_risk": false,
+      "present_count": 24,
+      "present_in_ledger": true,
+      "reason": "accepted source-side phi field",
+      "source_side_ok": true,
+      "unique_count": 9
+    }
+  ],
+  "statement": "Artifact 006 is a phi field-source audit. It checks that the fields used by directed-cycle phi are source-side fields, while form_index is used only for evaluation. The accepted phi fields are from_A/from_B/from_C, to_A/to_B/to_C, edge_role, slot_delta_mod15, and fiber_delta_mod60. answer-label leakage remains open because this audit checks field classification, not full native closure. This is not native closure, not full role-labeled shared_B universe derivation, and not Gap A closure.",
+  "status": "source_construction_phi_field_source_audit_recorded",
+  "verdict": "phi_fields_source_side_clean_in_ledger"
+}

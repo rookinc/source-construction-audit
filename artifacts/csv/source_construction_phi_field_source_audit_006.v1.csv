@@ -1,0 +1,12 @@
+field,role,classification,allowed_for_phi,leakage_risk,source_side_ok_or_eval_ok,reason
+from_A,phi_field,source_provenance_candidate,True,False,True,accepted source-side phi field
+from_B,phi_field,source_provenance_candidate,True,False,True,accepted source-side phi field
+from_C,phi_field,source_provenance_candidate,True,False,True,accepted source-side phi field
+to_A,phi_field,source_provenance_candidate,True,False,True,accepted source-side phi field
+to_B,phi_field,source_provenance_candidate,True,False,True,accepted source-side phi field
+to_C,phi_field,source_provenance_candidate,True,False,True,accepted source-side phi field
+edge_role,phi_field,source_provenance_candidate,True,False,True,accepted source-side phi field
+slot_delta_mod15,phi_field,native_delta_or_transition,True,False,True,accepted source-side phi field
+fiber_delta_mod60,phi_field,native_delta_or_transition,True,False,True,accepted source-side phi field
+form_index,evaluation_field,evaluation_or_label_risk,False,True,True,blocked/evaluation field is not used by phi
+ledger_row_id,evaluation_field,order_leakage_risk,False,True,True,ledger_row_id is an exported row id and is not used by phi
